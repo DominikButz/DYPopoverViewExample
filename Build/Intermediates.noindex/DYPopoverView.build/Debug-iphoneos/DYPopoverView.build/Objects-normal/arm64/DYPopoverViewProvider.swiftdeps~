@@ -1,0 +1,704 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PopoverType"
+- "DYPopoverViewProvider"
+- "PopoverFrame"
+- "PopoverOffset"
+- "PopoverViewModifier"
+- "AnchorView"
+- "DYPopoverViewSettings"
+- "DYPopoverViewOriginPreferenceKey"
+- "DYPopoverViewOriginPreference"
+provides-nominal:
+- "13DYPopoverView11PopoverTypeO"
+- "13DYPopoverView0aB8ProviderC"
+- "13DYPopoverView12PopoverFrameV"
+- "13DYPopoverView13PopoverOffsetV"
+- "13DYPopoverView07PopoverB8ModifierV"
+- "13DYPopoverView06AnchorB0V"
+- "13DYPopoverView0aB8SettingsV"
+- "13DYPopoverView0aB19OriginPreferenceKeyV"
+- "13DYPopoverView0aB16OriginPreferenceV"
+provides-member:
+- ["13DYPopoverView11PopoverTypeO", ""]
+- ["13DYPopoverView0aB8ProviderC", ""]
+- ["13DYPopoverView12PopoverFrameV", ""]
+- ["13DYPopoverView13PopoverOffsetV", ""]
+- ["13DYPopoverView07PopoverB8ModifierV", ""]
+- ["13DYPopoverView06AnchorB0V", ""]
+- ["7SwiftUI4ViewP", ""]
+- ["13DYPopoverView0aB8SettingsV", ""]
+- ["13DYPopoverView0aB19OriginPreferenceKeyV", ""]
+- ["13DYPopoverView0aB16OriginPreferenceV", ""]
+- ["7SwiftUI4ViewP", "anchorView"]
+- ["7SwiftUI4ViewP", "popoverView"]
+provides-dynamic-lookup:
+- "arrowPosition"
+- "popoverView"
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "+"
+- !private "-"
+- !private "/"
+- "=="
+- "Anchor"
+- "AnchorView"
+- "Animation"
+- "AnyView"
+- "AssignmentPrecedence"
+- "Binding"
+- "Bool"
+- "CGFloat"
+- "CGRect"
+- "CGSize"
+- "Color"
+- "Content"
+- "DYPopoverViewOriginPreference"
+- "DYPopoverViewOriginPreferenceKey"
+- "DYPopoverViewProvider"
+- "DYPopoverViewSettings"
+- "FloatLiteralType"
+- "GeometryProxy"
+- !private "GeometryReader"
+- "IntegerLiteralType"
+- "PopoverFrame"
+- "PopoverOffset"
+- "PopoverType"
+- "PopoverViewModifier"
+- "PreferenceKey"
+- !private "RoundedArrowRectangle"
+- "String"
+- "TernaryPrecedence"
+- "View"
+- "ViewModifier"
+- "ViewPosition"
+- !private "ZStack"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "infinity"]
+- !private ["7SwiftUI9AlignmentV", "topLeading"]
+- ["13DYPopoverView06AnchorB0V", "Body"]
+- ["13DYPopoverView06AnchorB0V", "Content"]
+- !private ["13DYPopoverView06AnchorB0V", "DYPopoverViewOriginPreference"]
+- !private ["13DYPopoverView06AnchorB0V", "DYPopoverViewOriginPreferenceKey"]
+- ["13DYPopoverView06AnchorB0V", "String"]
+- ["13DYPopoverView06AnchorB0V", "View"]
+- ["13DYPopoverView06AnchorB0V", "_Default_Body"]
+- ["13DYPopoverView06AnchorB0V", "_makeView"]
+- ["13DYPopoverView06AnchorB0V", "_makeViewList"]
+- ["13DYPopoverView06AnchorB0V", "body"]
+- ["13DYPopoverView06AnchorB0V", "deinit"]
+- ["13DYPopoverView06AnchorB0V", "init"]
+- ["13DYPopoverView06AnchorB0V", "viewId"]
+- !private ["7SwiftUI10AnimatableP", "fill"]
+- !private ["7SwiftUI10AnimatableP", "height"]
+- !private ["7SwiftUI10AnimatableP", "init"]
+- !private ["7SwiftUI10AnimatableP", "minX"]
+- !private ["7SwiftUI10AnimatableP", "minY"]
+- !private ["7SwiftUI10AnimatableP", "size"]
+- !private ["7SwiftUI10AnimatableP", "width"]
+- ["7SwiftUI10AnimatableP", "zero"]
+- ["7SwiftUI9AnimationV", "spring"]
+- !private ["7SwiftUI7AnyViewV", "init"]
+- !private ["7SwiftUI7AnyViewV", "modifier"]
+- !private ["Sa", "append"]
+- !private ["Sa", "first"]
+- !private ["SK", "append"]
+- !private ["SK", "first"]
+- ["SK", "secondarySystemBackground"]
+- !private ["SB", "infinity"]
+- !private ["7SwiftUI7BindingV", "wrappedValue"]
+- !private ["12CoreGraphics7CGFloatV", "infinity"]
+- !private ["So6CGRectV", "height"]
+- !private ["So6CGRectV", "minX"]
+- !private ["So6CGRectV", "minY"]
+- !private ["So6CGRectV", "size"]
+- !private ["So6CGRectV", "width"]
+- !private ["So6CGRectV", "zero"]
+- !private ["So6CGSizeV", "height"]
+- !private ["So6CGSizeV", "width"]
+- ["So6CGSizeV", "zero"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "infinity"]
+- ["s7CVarArgP", "secondarySystemBackground"]
+- !private ["Sl", "append"]
+- !private ["Sl", "first"]
+- ["Sl", "secondarySystemBackground"]
+- ["7SwiftUI5ColorV", "init"]
+- !private ["SL", "infinity"]
+- ["SL", "secondarySystemBackground"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "infinity"]
+- !private ["s28CustomDebugStringConvertibleP", "minX"]
+- !private ["s28CustomDebugStringConvertibleP", "minY"]
+- ["s28CustomDebugStringConvertibleP", "secondarySystemBackground"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- ["s28CustomDebugStringConvertibleP", "spring"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- ["s28CustomDebugStringConvertibleP", "zero"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "infinity"]
+- !private ["s17CustomReflectableP", "minX"]
+- !private ["s17CustomReflectableP", "minY"]
+- ["s17CustomReflectableP", "secondarySystemBackground"]
+- !private ["s17CustomReflectableP", "size"]
+- ["s17CustomReflectableP", "spring"]
+- !private ["s17CustomReflectableP", "width"]
+- ["s17CustomReflectableP", "zero"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "infinity"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "secondarySystemBackground"]
+- ["s23CustomStringConvertibleP", "spring"]
+- ["13DYPopoverView0aB16OriginPreferenceV", "Anchor"]
+- ["13DYPopoverView0aB16OriginPreferenceV", "CGRect"]
+- ["13DYPopoverView0aB16OriginPreferenceV", "String"]
+- ["13DYPopoverView0aB16OriginPreferenceV", "bounds"]
+- ["13DYPopoverView0aB16OriginPreferenceV", "init"]
+- ["13DYPopoverView0aB16OriginPreferenceV", "viewId"]
+- ["13DYPopoverView0aB19OriginPreferenceKeyV", "DYPopoverViewOriginPreference"]
+- ["13DYPopoverView0aB19OriginPreferenceKeyV", "Value"]
+- ["13DYPopoverView0aB19OriginPreferenceKeyV", "_includesRemovedValues"]
+- ["13DYPopoverView0aB19OriginPreferenceKeyV", "_isReadableByHost"]
+- ["13DYPopoverView0aB19OriginPreferenceKeyV", "defaultValue"]
+- ["13DYPopoverView0aB19OriginPreferenceKeyV", "deinit"]
+- ["13DYPopoverView0aB19OriginPreferenceKeyV", "init"]
+- ["13DYPopoverView0aB19OriginPreferenceKeyV", "reduce"]
+- ["13DYPopoverView0aB8ProviderC", "AnyView"]
+- ["13DYPopoverView0aB8ProviderC", "Binding"]
+- ["13DYPopoverView0aB8ProviderC", "Bool"]
+- ["13DYPopoverView0aB8ProviderC", "CGRect"]
+- ["13DYPopoverView0aB8ProviderC", "DYPopoverViewOriginPreference"]
+- ["13DYPopoverView0aB8ProviderC", "DYPopoverViewSettings"]
+- ["13DYPopoverView0aB8ProviderC", "GeometryProxy"]
+- !private ["13DYPopoverView0aB8ProviderC", "PopoverFrame"]
+- !private ["13DYPopoverView0aB8ProviderC", "PopoverOffset"]
+- ["13DYPopoverView0aB8ProviderC", "PopoverType"]
+- !private ["13DYPopoverView0aB8ProviderC", "RoundedArrowRectangle"]
+- ["13DYPopoverView0aB8ProviderC", "String"]
+- ["13DYPopoverView0aB8ProviderC", "View"]
+- ["13DYPopoverView0aB8ProviderC", "ViewPosition"]
+- ["13DYPopoverView0aB8ProviderC", "arrowPosition"]
+- ["13DYPopoverView0aB8ProviderC", "deinit"]
+- ["13DYPopoverView0aB8ProviderC", "init"]
+- ["13DYPopoverView0aB8ProviderC", "popoverView"]
+- ["13DYPopoverView0aB8SettingsV", "Animation"]
+- ["13DYPopoverView0aB8SettingsV", "CGFloat"]
+- ["13DYPopoverView0aB8SettingsV", "CGSize"]
+- ["13DYPopoverView0aB8SettingsV", "Color"]
+- ["13DYPopoverView0aB8SettingsV", "ViewPosition"]
+- ["13DYPopoverView0aB8SettingsV", "animation"]
+- ["13DYPopoverView0aB8SettingsV", "arrowLength"]
+- ["13DYPopoverView0aB8SettingsV", "backgroundColor"]
+- ["13DYPopoverView0aB8SettingsV", "cornerRadius"]
+- ["13DYPopoverView0aB8SettingsV", "differentArrowPosition"]
+- ["13DYPopoverView0aB8SettingsV", "init"]
+- ["13DYPopoverView0aB8SettingsV", "offset"]
+- ["13DYPopoverView0aB8SettingsV", "shadowRadius"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["Se", "append"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "first"]
+- !private ["Se", "height"]
+- !private ["Se", "infinity"]
+- !private ["Se", "minX"]
+- !private ["Se", "minY"]
+- ["Se", "secondarySystemBackground"]
+- !private ["Se", "size"]
+- !private ["Se", "width"]
+- ["Se", "zero"]
+- !private ["7SwiftUI15DynamicPropertyP", "wrappedValue"]
+- !private ["7SwiftUI18DynamicViewContentP", "animation"]
+- !private ["7SwiftUI18DynamicViewContentP", "background"]
+- !private ["SE", "append"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "first"]
+- !private ["SE", "height"]
+- !private ["SE", "infinity"]
+- !private ["SE", "minX"]
+- !private ["SE", "minY"]
+- ["SE", "secondarySystemBackground"]
+- !private ["SE", "size"]
+- !private ["SE", "width"]
+- ["SE", "zero"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "animation"]
+- !private ["SQ", "append"]
+- !private ["SQ", "background"]
+- ["SQ", "bottom"]
+- ["SQ", "bottomLeft"]
+- ["SQ", "bottomRight"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "first"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "height"]
+- !private ["SQ", "infinity"]
+- ["SQ", "init"]
+- ["SQ", "left"]
+- !private ["SQ", "minX"]
+- !private ["SQ", "minY"]
+- ["SQ", "none"]
+- !private ["SQ", "opposite"]
+- !private ["SQ", "popover"]
+- ["SQ", "right"]
+- ["SQ", "secondarySystemBackground"]
+- !private ["SQ", "size"]
+- ["SQ", "spring"]
+- ["SQ", "top"]
+- !private ["SQ", "topLeading"]
+- ["SQ", "topLeft"]
+- ["SQ", "topRight"]
+- !private ["SQ", "width"]
+- ["SQ", "zero"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "secondarySystemBackground"]
+- !private ["s25ExpressibleByFloatLiteralP", "infinity"]
+- !private ["s27ExpressibleByIntegerLiteralP", "infinity"]
+- !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
+- !private ["s23ExpressibleByNilLiteralP", "infinity"]
+- ["s32ExpressibleByStringInterpolationP", "secondarySystemBackground"]
+- ["s26ExpressibleByStringLiteralP", "secondarySystemBackground"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "secondarySystemBackground"]
+- !private ["SF", "infinity"]
+- !private ["7SwiftUI13GeometryProxyV", "subscript"]
+- !private ["7SwiftUI14GeometryReaderV", "init"]
+- !private ["7SwiftUI7GestureP", "callAsFunction"]
+- !private ["7SwiftUI7GestureP", "infinity"]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "append"]
+- ["SH", "bottom"]
+- ["SH", "bottomLeft"]
+- ["SH", "bottomRight"]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "first"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "infinity"]
+- ["SH", "init"]
+- ["SH", "left"]
+- ["SH", "none"]
+- !private ["SH", "opposite"]
+- !private ["SH", "popover"]
+- ["SH", "right"]
+- ["SH", "secondarySystemBackground"]
+- ["SH", "top"]
+- ["SH", "topLeft"]
+- ["SH", "topRight"]
+- !private ["s6HasherV", "combine"]
+- ["s25LosslessStringConvertibleP", "secondarySystemBackground"]
+- ["s10MirrorPathP", "secondarySystemBackground"]
+- !private ["7SwiftUI15ModifiedContentV", "animation"]
+- !private ["7SwiftUI15ModifiedContentV", "background"]
+- !private ["SM", "append"]
+- !private ["SM", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- ["So8NSCodingP", "secondarySystemBackground"]
+- ["So9NSCopyingP", "secondarySystemBackground"]
+- ["So21NSItemProviderReadingP", "secondarySystemBackground"]
+- ["So21NSItemProviderWritingP", "secondarySystemBackground"]
+- ["So8NSObjectC", "secondarySystemBackground"]
+- ["So8NSObjectP", "secondarySystemBackground"]
+- ["So14NSSecureCodingP", "secondarySystemBackground"]
+- !private ["Sj", "infinity"]
+- !private ["Sq", "callAsFunction"]
+- !private ["Sq", "infinity"]
+- ["13DYPopoverView12PopoverFrameV", "$isPresented"]
+- ["13DYPopoverView12PopoverFrameV", "Binding"]
+- ["13DYPopoverView12PopoverFrameV", "Body"]
+- ["13DYPopoverView12PopoverFrameV", "Bool"]
+- ["13DYPopoverView12PopoverFrameV", "CGRect"]
+- ["13DYPopoverView12PopoverFrameV", "Content"]
+- ["13DYPopoverView12PopoverFrameV", "PopoverType"]
+- ["13DYPopoverView12PopoverFrameV", "View"]
+- ["13DYPopoverView12PopoverFrameV", "_Default_Body"]
+- !private ["13DYPopoverView12PopoverFrameV", "_isPresented"]
+- ["13DYPopoverView12PopoverFrameV", "_makeView"]
+- ["13DYPopoverView12PopoverFrameV", "_makeViewList"]
+- ["13DYPopoverView12PopoverFrameV", "body"]
+- ["13DYPopoverView12PopoverFrameV", "deinit"]
+- ["13DYPopoverView12PopoverFrameV", "init"]
+- ["13DYPopoverView12PopoverFrameV", "isPresented"]
+- ["13DYPopoverView12PopoverFrameV", "originBounds"]
+- ["13DYPopoverView12PopoverFrameV", "popoverType"]
+- ["13DYPopoverView12PopoverFrameV", "viewFrame"]
+- ["13DYPopoverView13PopoverOffsetV", "$isPresented"]
+- ["13DYPopoverView13PopoverOffsetV", "Binding"]
+- ["13DYPopoverView13PopoverOffsetV", "Body"]
+- ["13DYPopoverView13PopoverOffsetV", "Bool"]
+- ["13DYPopoverView13PopoverOffsetV", "CGFloat"]
+- ["13DYPopoverView13PopoverOffsetV", "CGRect"]
+- ["13DYPopoverView13PopoverOffsetV", "CGSize"]
+- ["13DYPopoverView13PopoverOffsetV", "Content"]
+- ["13DYPopoverView13PopoverOffsetV", "PopoverType"]
+- ["13DYPopoverView13PopoverOffsetV", "View"]
+- ["13DYPopoverView13PopoverOffsetV", "ViewPosition"]
+- ["13DYPopoverView13PopoverOffsetV", "_Default_Body"]
+- !private ["13DYPopoverView13PopoverOffsetV", "_isPresented"]
+- ["13DYPopoverView13PopoverOffsetV", "_makeView"]
+- ["13DYPopoverView13PopoverOffsetV", "_makeViewList"]
+- ["13DYPopoverView13PopoverOffsetV", "addOffset"]
+- ["13DYPopoverView13PopoverOffsetV", "arrowLength"]
+- ["13DYPopoverView13PopoverOffsetV", "body"]
+- ["13DYPopoverView13PopoverOffsetV", "deinit"]
+- ["13DYPopoverView13PopoverOffsetV", "init"]
+- ["13DYPopoverView13PopoverOffsetV", "isPresented"]
+- ["13DYPopoverView13PopoverOffsetV", "offsetXFor"]
+- ["13DYPopoverView13PopoverOffsetV", "offsetYFor"]
+- ["13DYPopoverView13PopoverOffsetV", "originBounds"]
+- ["13DYPopoverView13PopoverOffsetV", "popoverType"]
+- ["13DYPopoverView13PopoverOffsetV", "position"]
+- ["13DYPopoverView13PopoverOffsetV", "viewFrame"]
+- ["13DYPopoverView11PopoverTypeO", "=="]
+- ["13DYPopoverView11PopoverTypeO", "__derived_enum_equals"]
+- ["13DYPopoverView11PopoverTypeO", "_rawHashValue"]
+- ["13DYPopoverView11PopoverTypeO", "deinit"]
+- ["13DYPopoverView11PopoverTypeO", "hash"]
+- ["13DYPopoverView11PopoverTypeO", "hashValue"]
+- ["13DYPopoverView11PopoverTypeO", "popout"]
+- ["13DYPopoverView11PopoverTypeO", "popover"]
+- ["13DYPopoverView07PopoverB8ModifierV", "$frame"]
+- ["13DYPopoverView07PopoverB8ModifierV", "$show"]
+- ["13DYPopoverView07PopoverB8ModifierV", "AnyView"]
+- ["13DYPopoverView07PopoverB8ModifierV", "Binding"]
+- ["13DYPopoverView07PopoverB8ModifierV", "Body"]
+- ["13DYPopoverView07PopoverB8ModifierV", "Bool"]
+- ["13DYPopoverView07PopoverB8ModifierV", "CGRect"]
+- ["13DYPopoverView07PopoverB8ModifierV", "Content"]
+- ["13DYPopoverView07PopoverB8ModifierV", "DYPopoverViewOriginPreference"]
+- !private ["13DYPopoverView07PopoverB8ModifierV", "DYPopoverViewOriginPreferenceKey"]
+- ["13DYPopoverView07PopoverB8ModifierV", "DYPopoverViewSettings"]
+- ["13DYPopoverView07PopoverB8ModifierV", "GeometryProxy"]
+- !private ["13DYPopoverView07PopoverB8ModifierV", "GeometryReader"]
+- !private ["13DYPopoverView07PopoverB8ModifierV", "PopoverFrame"]
+- !private ["13DYPopoverView07PopoverB8ModifierV", "PopoverOffset"]
+- ["13DYPopoverView07PopoverB8ModifierV", "PopoverType"]
+- !private ["13DYPopoverView07PopoverB8ModifierV", "RoundedArrowRectangle"]
+- ["13DYPopoverView07PopoverB8ModifierV", "String"]
+- ["13DYPopoverView07PopoverB8ModifierV", "View"]
+- ["13DYPopoverView07PopoverB8ModifierV", "ViewPosition"]
+- !private ["13DYPopoverView07PopoverB8ModifierV", "ZStack"]
+- ["13DYPopoverView07PopoverB8ModifierV", "_Default_Body"]
+- !private ["13DYPopoverView07PopoverB8ModifierV", "_frame"]
+- ["13DYPopoverView07PopoverB8ModifierV", "_makeView"]
+- ["13DYPopoverView07PopoverB8ModifierV", "_makeViewList"]
+- !private ["13DYPopoverView07PopoverB8ModifierV", "_show"]
+- ["13DYPopoverView07PopoverB8ModifierV", "arrowPosition"]
+- ["13DYPopoverView07PopoverB8ModifierV", "body"]
+- ["13DYPopoverView07PopoverB8ModifierV", "contentView"]
+- ["13DYPopoverView07PopoverB8ModifierV", "deinit"]
+- ["13DYPopoverView07PopoverB8ModifierV", "frame"]
+- ["13DYPopoverView07PopoverB8ModifierV", "init"]
+- ["13DYPopoverView07PopoverB8ModifierV", "popoverType"]
+- ["13DYPopoverView07PopoverB8ModifierV", "popoverView"]
+- ["13DYPopoverView07PopoverB8ModifierV", "position"]
+- ["13DYPopoverView07PopoverB8ModifierV", "settings"]
+- ["13DYPopoverView07PopoverB8ModifierV", "show"]
+- ["13DYPopoverView07PopoverB8ModifierV", "viewId"]
+- ["7SwiftUI13PreferenceKeyP", "Value"]
+- ["7SwiftUI13PreferenceKeyP", ""]
+- ["7SwiftUI13PreferenceKeyP", "_includesRemovedValues"]
+- ["7SwiftUI13PreferenceKeyP", "_isReadableByHost"]
+- ["7SwiftUI13PreferenceKeyP", "defaultValue"]
+- ["7SwiftUI13PreferenceKeyP", "reduce"]
+- !private ["Sk", "append"]
+- !private ["Sk", "first"]
+- !private ["Sm", "append"]
+- !private ["Sm", "first"]
+- ["Sm", "secondarySystemBackground"]
+- ["SY", "bottom"]
+- ["SY", "bottomLeft"]
+- ["SY", "bottomRight"]
+- ["SY", "left"]
+- ["SY", "none"]
+- !private ["SY", "opposite"]
+- ["SY", "right"]
+- ["SY", "top"]
+- ["SY", "topLeft"]
+- ["SY", "topRight"]
+- !private ["13DYPopoverView21RoundedArrowRectangleV", "deinit"]
+- !private ["13DYPopoverView21RoundedArrowRectangleV", "fill"]
+- !private ["13DYPopoverView21RoundedArrowRectangleV", "init"]
+- !private ["ST", "append"]
+- !private ["ST", "first"]
+- ["ST", "secondarySystemBackground"]
+- !private ["7SwiftUI5ShapeP", "fill"]
+- !private ["7SwiftUI5ShapeP", "init"]
+- ["7SwiftUI10ShapeStyleP", "init"]
+- !private ["s13SignedNumericP", "infinity"]
+- !private ["7SwiftUI6AnchorV6SourceV", "bounds"]
+- !private ["Sx", "infinity"]
+- ["SS", "secondarySystemBackground"]
+- ["Sy", "secondarySystemBackground"]
+- ["s16TextOutputStreamP", "secondarySystemBackground"]
+- ["s20TextOutputStreamableP", "secondarySystemBackground"]
+- ["So7UIColorC", "secondarySystemBackground"]
+- !private ["7SwiftUI16VectorArithmeticP", "infinity"]
+- !private ["7SwiftUI4ViewP", "AnchorView"]
+- ["7SwiftUI4ViewP", "AnyView"]
+- ["7SwiftUI4ViewP", "Binding"]
+- ["7SwiftUI4ViewP", "Bool"]
+- ["7SwiftUI4ViewP", "CGRect"]
+- ["7SwiftUI4ViewP", "DYPopoverViewSettings"]
+- ["7SwiftUI4ViewP", "PopoverType"]
+- !private ["7SwiftUI4ViewP", "PopoverViewModifier"]
+- ["7SwiftUI4ViewP", "String"]
+- ["7SwiftUI4ViewP", "View"]
+- ["7SwiftUI4ViewP", "ViewPosition"]
+- !private ["7SwiftUI4ViewP", "anchorPreference"]
+- ["7SwiftUI4ViewP", "anchorView"]
+- !private ["7SwiftUI4ViewP", "animation"]
+- !private ["7SwiftUI4ViewP", "background"]
+- !private ["7SwiftUI4ViewP", "callAsFunction"]
+- !private ["7SwiftUI4ViewP", "clipShape"]
+- !private ["7SwiftUI4ViewP", "fill"]
+- !private ["7SwiftUI4ViewP", "frame"]
+- !private ["7SwiftUI4ViewP", "infinity"]
+- ["7SwiftUI4ViewP", "init"]
+- !private ["7SwiftUI4ViewP", "modifier"]
+- !private ["7SwiftUI4ViewP", "offset"]
+- !private ["7SwiftUI4ViewP", "opacity"]
+- !private ["7SwiftUI4ViewP", "overlayPreferenceValue"]
+- ["7SwiftUI4ViewP", "popoverView"]
+- !private ["7SwiftUI4ViewP", "shadow"]
+- !private ["7SwiftUI12ViewModifierP", "$frame"]
+- !private ["7SwiftUI12ViewModifierP", "$show"]
+- !private ["7SwiftUI12ViewModifierP", "AnyView"]
+- ["7SwiftUI12ViewModifierP", "Binding"]
+- ["7SwiftUI12ViewModifierP", "Body"]
+- ["7SwiftUI12ViewModifierP", "Content"]
+- !private ["7SwiftUI12ViewModifierP", "DYPopoverViewOriginPreference"]
+- !private ["7SwiftUI12ViewModifierP", "DYPopoverViewOriginPreferenceKey"]
+- !private ["7SwiftUI12ViewModifierP", "DYPopoverViewSettings"]
+- !private ["7SwiftUI12ViewModifierP", "GeometryReader"]
+- !private ["7SwiftUI12ViewModifierP", "PopoverFrame"]
+- !private ["7SwiftUI12ViewModifierP", "PopoverOffset"]
+- !private ["7SwiftUI12ViewModifierP", "RoundedArrowRectangle"]
+- !private ["7SwiftUI12ViewModifierP", "ZStack"]
+- ["7SwiftUI12ViewModifierP", ""]
+- ["7SwiftUI12ViewModifierP", "_Default_Body"]
+- ["7SwiftUI12ViewModifierP", "_makeView"]
+- ["7SwiftUI12ViewModifierP", "_makeViewList"]
+- !private ["7SwiftUI12ViewModifierP", "addOffset"]
+- !private ["7SwiftUI12ViewModifierP", "animation"]
+- !private ["7SwiftUI12ViewModifierP", "arrowLength"]
+- !private ["7SwiftUI12ViewModifierP", "arrowPosition"]
+- !private ["7SwiftUI12ViewModifierP", "background"]
+- ["7SwiftUI12ViewModifierP", "body"]
+- !private ["7SwiftUI12ViewModifierP", "contentView"]
+- !private ["7SwiftUI12ViewModifierP", "init"]
+- !private ["7SwiftUI12ViewModifierP", "isPresented"]
+- !private ["7SwiftUI12ViewModifierP", "offsetXFor"]
+- !private ["7SwiftUI12ViewModifierP", "offsetYFor"]
+- !private ["7SwiftUI12ViewModifierP", "originBounds"]
+- !private ["7SwiftUI12ViewModifierP", "popoverType"]
+- !private ["7SwiftUI12ViewModifierP", "popoverView"]
+- !private ["7SwiftUI12ViewModifierP", "position"]
+- !private ["7SwiftUI12ViewModifierP", "settings"]
+- !private ["7SwiftUI12ViewModifierP", "viewFrame"]
+- !private ["7SwiftUI12ViewModifierP", "viewId"]
+- ["13DYPopoverView0B8PositionO", "bottom"]
+- ["13DYPopoverView0B8PositionO", "bottomLeft"]
+- ["13DYPopoverView0B8PositionO", "bottomRight"]
+- !private ["13DYPopoverView0B8PositionO", "deinit"]
+- ["13DYPopoverView0B8PositionO", "left"]
+- ["13DYPopoverView0B8PositionO", "none"]
+- !private ["13DYPopoverView0B8PositionO", "opposite"]
+- ["13DYPopoverView0B8PositionO", "right"]
+- ["13DYPopoverView0B8PositionO", "top"]
+- ["13DYPopoverView0B8PositionO", "topLeft"]
+- ["13DYPopoverView0B8PositionO", "topRight"]
+- !private ["7SwiftUI6ZStackV", "frame"]
+- !private ["7SwiftUI6ZStackV", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s15_CVarArgAlignedP", "infinity"]
+- !private ["s22_CVarArgPassedAsDoubleP", "infinity"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "height"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "minX"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "minY"]
+- ["s30_CustomPlaygroundQuickLookableP", "secondarySystemBackground"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "size"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "width"]
+- ["s30_CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "secondarySystemBackground"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "secondarySystemBackground"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "secondarySystemBackground"]
+- ["s26_ExpressibleByColorLiteralP", "secondarySystemBackground"]
+- !private ["7SwiftUI18_FormatSpecifiableP", "infinity"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- ["s19_HasContiguousBytesP", "secondarySystemBackground"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "secondarySystemBackground"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "secondarySystemBackground"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "infinity"]
+- !private ["s21_ObjectiveCBridgeableP", "minX"]
+- !private ["s21_ObjectiveCBridgeableP", "minY"]
+- ["s21_ObjectiveCBridgeableP", "secondarySystemBackground"]
+- !private ["s21_ObjectiveCBridgeableP", "size"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- ["s21_ObjectiveCBridgeableP", "zero"]
+- !private ["7SwiftUI21_ViewModifier_ContentV", "anchorPreference"]
+- !private ["7SwiftUI21_ViewModifier_ContentV", "frame"]
+- !private ["7SwiftUI21_ViewModifier_ContentV", "offset"]
+- !private ["7SwiftUI21_ViewModifier_ContentV", "overlayPreferenceValue"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "7SwiftUI9AlignmentV"
+- "13DYPopoverView06AnchorB0V"
+- "7SwiftUI10AnimatableP"
+- "7SwiftUI9AnimationV"
+- !private "7SwiftUI7AnyViewV"
+- !private "Sa"
+- "SK"
+- !private "SB"
+- !private "7SwiftUI7BindingV"
+- !private "12CoreGraphics7CGFloatV"
+- !private "So6CGRectV"
+- "So6CGSizeV"
+- "s7CVarArgP"
+- "Sl"
+- "7SwiftUI5ColorV"
+- "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "13DYPopoverView0aB16OriginPreferenceV"
+- "13DYPopoverView0aB19OriginPreferenceKeyV"
+- "13DYPopoverView0aB8ProviderC"
+- "13DYPopoverView0aB8SettingsV"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "7SwiftUI15DynamicPropertyP"
+- !private "7SwiftUI18DynamicViewContentP"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SF"
+- !private "7SwiftUI13GeometryProxyV"
+- !private "7SwiftUI14GeometryReaderV"
+- !private "7SwiftUI7GestureP"
+- "SH"
+- !private "s6HasherV"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "7SwiftUI15ModifiedContentV"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- !private "Sj"
+- !private "Sq"
+- "13DYPopoverView12PopoverFrameV"
+- "13DYPopoverView13PopoverOffsetV"
+- "13DYPopoverView11PopoverTypeO"
+- "13DYPopoverView07PopoverB8ModifierV"
+- "7SwiftUI13PreferenceKeyP"
+- !private "Sk"
+- "Sm"
+- "SY"
+- !private "13DYPopoverView21RoundedArrowRectangleV"
+- "ST"
+- !private "7SwiftUI5ShapeP"
+- "7SwiftUI10ShapeStyleP"
+- !private "s13SignedNumericP"
+- !private "7SwiftUI6AnchorV6SourceV"
+- !private "Sx"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So7UIColorC"
+- !private "7SwiftUI16VectorArithmeticP"
+- "7SwiftUI4ViewP"
+- "7SwiftUI12ViewModifierP"
+- "13DYPopoverView0B8PositionO"
+- !private "7SwiftUI6ZStackV"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s26_ExpressibleByColorLiteralP"
+- !private "7SwiftUI18_FormatSpecifiableP"
+- "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "7SwiftUI21_ViewModifier_ContentV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/os.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftUI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "cc764a7207ae651a928a1ec6de66f6c3"

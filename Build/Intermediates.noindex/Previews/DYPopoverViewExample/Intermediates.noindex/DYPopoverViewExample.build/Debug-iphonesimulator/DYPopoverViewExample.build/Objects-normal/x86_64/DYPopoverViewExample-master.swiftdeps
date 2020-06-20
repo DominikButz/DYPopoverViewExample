@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "b5f04e865bac20e6c3cb90778853f9ef"
+build_time: [1592635667, 671932000]
+inputs:
+  "/Users/Dominik/Documents/Programmieren/Libraries/DYPopoverViewExample/ExpandingViewExample/Buttons.swift": [1574756777, 0]
+  "/Users/Dominik/Documents/Programmieren/Libraries/DYPopoverViewExample/ExpandingViewExample/AppDelegate.swift": [1575097109, 0]
+  "/Users/Dominik/Documents/Programmieren/Libraries/DYPopoverViewExample/ExpandingViewExample/SceneDelegate.swift": [1575097109, 0]
+  "/Users/Dominik/Documents/Programmieren/Libraries/DYPopoverViewExample/ExpandingViewExample/ContentView.swift": [1592635485, 104879113]
+  "/Users/Dominik/Documents/Programmieren/Libraries/DYPopoverViewExample/ExpandingViewExample/ContentExample.swift": [1592634815, 844569618]

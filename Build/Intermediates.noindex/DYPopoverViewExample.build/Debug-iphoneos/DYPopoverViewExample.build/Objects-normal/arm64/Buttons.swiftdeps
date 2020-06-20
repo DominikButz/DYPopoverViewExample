@@ -1,0 +1,236 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TranslucentTextButtonView"
+- "VerticalSymbolTextButtonView"
+- "CloseButtonDefault"
+provides-nominal:
+- "20DYPopoverViewExample021TranslucentTextButtonB0V"
+- "20DYPopoverViewExample024VerticalSymbolTextButtonB0V"
+- "20DYPopoverViewExample18CloseButtonDefaultV"
+provides-member:
+- ["20DYPopoverViewExample021TranslucentTextButtonB0V", ""]
+- ["20DYPopoverViewExample024VerticalSymbolTextButtonB0V", ""]
+- ["20DYPopoverViewExample18CloseButtonDefaultV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "CGFloat"
+- "CloseButtonDefault"
+- "Color"
+- !private "EdgeInsets"
+- !private "FloatLiteralType"
+- !private "Image"
+- !private "IntegerLiteralType"
+- !private "RoundedRectangle"
+- "String"
+- !private "StringLiteralType"
+- !private "Text"
+- "TranslucentTextButtonView"
+- !private "VStack"
+- "VerticalSymbolTextButtonView"
+- "View"
+depends-member:
+- !private ["7SwiftUI10AnimatableP", "init"]
+- ["20DYPopoverViewExample18CloseButtonDefaultV", "Body"]
+- !private ["20DYPopoverViewExample18CloseButtonDefaultV", "Image"]
+- ["20DYPopoverViewExample18CloseButtonDefaultV", "View"]
+- ["20DYPopoverViewExample18CloseButtonDefaultV", "_Default_Body"]
+- ["20DYPopoverViewExample18CloseButtonDefaultV", "_makeView"]
+- ["20DYPopoverViewExample18CloseButtonDefaultV", "_makeViewList"]
+- ["20DYPopoverViewExample18CloseButtonDefaultV", "body"]
+- ["20DYPopoverViewExample18CloseButtonDefaultV", "deinit"]
+- ["20DYPopoverViewExample18CloseButtonDefaultV", "init"]
+- !private ["7SwiftUI5ColorV", "accentColor"]
+- !private ["7SwiftUI5ColorV", "opacity"]
+- !private ["s28CustomDebugStringConvertibleP", "accentColor"]
+- !private ["s28CustomDebugStringConvertibleP", "caption"]
+- !private ["s28CustomDebugStringConvertibleP", "headline"]
+- !private ["s28CustomDebugStringConvertibleP", "system"]
+- !private ["s17CustomReflectableP", "accentColor"]
+- !private ["s17CustomReflectableP", "caption"]
+- !private ["s17CustomReflectableP", "headline"]
+- !private ["s17CustomReflectableP", "system"]
+- !private ["s23CustomStringConvertibleP", "accentColor"]
+- !private ["s23CustomStringConvertibleP", "opacity"]
+- !private ["Se", "accentColor"]
+- !private ["Se", "caption"]
+- !private ["Se", "headline"]
+- !private ["Se", "system"]
+- !private ["7SwiftUI10EdgeInsetsV", "init"]
+- !private ["SE", "accentColor"]
+- !private ["SE", "caption"]
+- !private ["SE", "headline"]
+- !private ["SE", "system"]
+- !private ["SQ", "accentColor"]
+- !private ["SQ", "caption"]
+- !private ["SQ", "font"]
+- !private ["SQ", "headline"]
+- !private ["SQ", "init"]
+- !private ["SQ", "opacity"]
+- !private ["SQ", "padding"]
+- !private ["SQ", "system"]
+- !private ["s23ExpressibleByNilLiteralP", "accentColor"]
+- !private ["s23ExpressibleByNilLiteralP", "caption"]
+- !private ["s23ExpressibleByNilLiteralP", "headline"]
+- !private ["s23ExpressibleByNilLiteralP", "system"]
+- !private ["7SwiftUI4FontV", "caption"]
+- !private ["7SwiftUI4FontV", "headline"]
+- !private ["7SwiftUI4FontV", "system"]
+- !private ["7SwiftUI7GestureP", "accentColor"]
+- !private ["7SwiftUI7GestureP", "caption"]
+- !private ["7SwiftUI7GestureP", "headline"]
+- !private ["7SwiftUI7GestureP", "system"]
+- !private ["SH", "accentColor"]
+- !private ["SH", "caption"]
+- !private ["SH", "headline"]
+- !private ["SH", "opacity"]
+- !private ["SH", "system"]
+- !private ["7SwiftUI5ImageV", "font"]
+- !private ["7SwiftUI5ImageV", "init"]
+- !private ["7SwiftUI15InsettableShapeP", "init"]
+- !private ["Sq", "accentColor"]
+- !private ["Sq", "caption"]
+- !private ["Sq", "headline"]
+- !private ["Sq", "system"]
+- !private ["7SwiftUI16RoundedRectangleV", "init"]
+- !private ["7SwiftUI5ShapeP", "init"]
+- !private ["7SwiftUI10ShapeStyleP", "accentColor"]
+- !private ["7SwiftUI10ShapeStyleP", "opacity"]
+- !private ["7SwiftUI4TextV", "font"]
+- !private ["7SwiftUI4TextV", "init"]
+- !private ["7SwiftUI4TextV", "padding"]
+- ["20DYPopoverViewExample021TranslucentTextButtonB0V", "Body"]
+- ["20DYPopoverViewExample021TranslucentTextButtonB0V", "CGFloat"]
+- ["20DYPopoverViewExample021TranslucentTextButtonB0V", "Color"]
+- !private ["20DYPopoverViewExample021TranslucentTextButtonB0V", "EdgeInsets"]
+- !private ["20DYPopoverViewExample021TranslucentTextButtonB0V", "RoundedRectangle"]
+- ["20DYPopoverViewExample021TranslucentTextButtonB0V", "String"]
+- !private ["20DYPopoverViewExample021TranslucentTextButtonB0V", "Text"]
+- ["20DYPopoverViewExample021TranslucentTextButtonB0V", "View"]
+- ["20DYPopoverViewExample021TranslucentTextButtonB0V", "_Default_Body"]
+- ["20DYPopoverViewExample021TranslucentTextButtonB0V", "_makeView"]
+- ["20DYPopoverViewExample021TranslucentTextButtonB0V", "_makeViewList"]
+- ["20DYPopoverViewExample021TranslucentTextButtonB0V", "backgroundColor"]
+- ["20DYPopoverViewExample021TranslucentTextButtonB0V", "body"]
+- ["20DYPopoverViewExample021TranslucentTextButtonB0V", "deinit"]
+- ["20DYPopoverViewExample021TranslucentTextButtonB0V", "foregroundColor"]
+- ["20DYPopoverViewExample021TranslucentTextButtonB0V", "frameWidth"]
+- ["20DYPopoverViewExample021TranslucentTextButtonB0V", "init"]
+- ["20DYPopoverViewExample021TranslucentTextButtonB0V", "title"]
+- !private ["7SwiftUI6VStackV", "foregroundColor"]
+- !private ["7SwiftUI6VStackV", "init"]
+- ["20DYPopoverViewExample024VerticalSymbolTextButtonB0V", "Body"]
+- ["20DYPopoverViewExample024VerticalSymbolTextButtonB0V", "CGFloat"]
+- ["20DYPopoverViewExample024VerticalSymbolTextButtonB0V", "Color"]
+- !private ["20DYPopoverViewExample024VerticalSymbolTextButtonB0V", "EdgeInsets"]
+- !private ["20DYPopoverViewExample024VerticalSymbolTextButtonB0V", "Image"]
+- ["20DYPopoverViewExample024VerticalSymbolTextButtonB0V", "String"]
+- !private ["20DYPopoverViewExample024VerticalSymbolTextButtonB0V", "Text"]
+- !private ["20DYPopoverViewExample024VerticalSymbolTextButtonB0V", "VStack"]
+- ["20DYPopoverViewExample024VerticalSymbolTextButtonB0V", "View"]
+- ["20DYPopoverViewExample024VerticalSymbolTextButtonB0V", "_Default_Body"]
+- ["20DYPopoverViewExample024VerticalSymbolTextButtonB0V", "_makeView"]
+- ["20DYPopoverViewExample024VerticalSymbolTextButtonB0V", "_makeViewList"]
+- ["20DYPopoverViewExample024VerticalSymbolTextButtonB0V", "body"]
+- ["20DYPopoverViewExample024VerticalSymbolTextButtonB0V", "deinit"]
+- ["20DYPopoverViewExample024VerticalSymbolTextButtonB0V", "foregroundColor"]
+- ["20DYPopoverViewExample024VerticalSymbolTextButtonB0V", "imageSystemName"]
+- ["20DYPopoverViewExample024VerticalSymbolTextButtonB0V", "init"]
+- ["20DYPopoverViewExample024VerticalSymbolTextButtonB0V", "size"]
+- ["20DYPopoverViewExample024VerticalSymbolTextButtonB0V", "title"]
+- ["7SwiftUI4ViewP", "Body"]
+- !private ["7SwiftUI4ViewP", "EdgeInsets"]
+- !private ["7SwiftUI4ViewP", "Image"]
+- !private ["7SwiftUI4ViewP", "RoundedRectangle"]
+- !private ["7SwiftUI4ViewP", "Text"]
+- !private ["7SwiftUI4ViewP", "VStack"]
+- ["7SwiftUI4ViewP", ""]
+- ["7SwiftUI4ViewP", "_Default_Body"]
+- ["7SwiftUI4ViewP", "_makeView"]
+- ["7SwiftUI4ViewP", "_makeViewList"]
+- !private ["7SwiftUI4ViewP", "accentColor"]
+- !private ["7SwiftUI4ViewP", "background"]
+- !private ["7SwiftUI4ViewP", "backgroundColor"]
+- ["7SwiftUI4ViewP", "body"]
+- !private ["7SwiftUI4ViewP", "caption"]
+- !private ["7SwiftUI4ViewP", "clipShape"]
+- !private ["7SwiftUI4ViewP", "font"]
+- !private ["7SwiftUI4ViewP", "foregroundColor"]
+- !private ["7SwiftUI4ViewP", "frame"]
+- !private ["7SwiftUI4ViewP", "frameWidth"]
+- !private ["7SwiftUI4ViewP", "headline"]
+- !private ["7SwiftUI4ViewP", "imageSystemName"]
+- !private ["7SwiftUI4ViewP", "init"]
+- !private ["7SwiftUI4ViewP", "opacity"]
+- !private ["7SwiftUI4ViewP", "padding"]
+- !private ["7SwiftUI4ViewP", "size"]
+- !private ["7SwiftUI4ViewP", "system"]
+- !private ["7SwiftUI4ViewP", "title"]
+- !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
+- !private ["s21_ObjectiveCBridgeableP", "accentColor"]
+- !private ["s21_ObjectiveCBridgeableP", "caption"]
+- !private ["s21_ObjectiveCBridgeableP", "headline"]
+- !private ["s21_ObjectiveCBridgeableP", "system"]
+- !private ["7SwiftUI11_VectorMathP", "init"]
+depends-nominal:
+- !private "7SwiftUI10AnimatableP"
+- "20DYPopoverViewExample18CloseButtonDefaultV"
+- !private "7SwiftUI5ColorV"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "7SwiftUI10EdgeInsetsV"
+- !private "SE"
+- !private "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "7SwiftUI4FontV"
+- !private "7SwiftUI7GestureP"
+- !private "SH"
+- !private "7SwiftUI5ImageV"
+- !private "7SwiftUI15InsettableShapeP"
+- !private "Sq"
+- !private "7SwiftUI16RoundedRectangleV"
+- !private "7SwiftUI5ShapeP"
+- !private "7SwiftUI10ShapeStyleP"
+- !private "7SwiftUI4TextV"
+- "20DYPopoverViewExample021TranslucentTextButtonB0V"
+- !private "7SwiftUI6VStackV"
+- "20DYPopoverViewExample024VerticalSymbolTextButtonB0V"
+- "7SwiftUI4ViewP"
+- !private "7SwiftUI11ViewBuilderV"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "7SwiftUI11_VectorMathP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/os.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftUI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6a57b46520c066e2981dd595432f1c5e"
