@@ -1,4 +1,0 @@
-module DYPopoverView {
-header "DYPopoverView-Swift.h"
-export *
-}

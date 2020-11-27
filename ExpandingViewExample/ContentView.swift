@@ -33,8 +33,6 @@ struct ContentView: View {
                        TranslucentTextButtonView(title: "Popout", foregroundColor: .red, backgroundColor: .red, frameWidth: 100)
                     }.anchorView(viewId:"0").padding()
                        
-                
-      
                     Button(action: {
                        // self.viewId = "1"
                         self.showSecondPopover.toggle()
@@ -43,9 +41,7 @@ struct ContentView: View {
                           
                     }
                     .anchorView(viewId:"1").padding()
-        
-           
-                
+
                     Spacer()
                 
                     Picker("", selection: self.$popoverPosition) {
@@ -53,34 +49,31 @@ struct ContentView: View {
                             Text(ViewPosition.allCases[$0].rawValue).tag(ViewPosition.allCases[$0])
                         }
                     }
-                    
-                
-                
-                
+                     
             }.frame(width: proxy.size.width).background(Color(.systemBackground))
-                .popoverView(content: {Text("Content")}, isPresented: self.$showFirstPopover, frame: .constant(CGRect(x: 0, y: 0, width: 150, height: 150)), popoverType: .popout, position: self.popoverPosition, viewId: "0", settings: self.customPopoverSettings0())
-                .popoverView(content: {ContentExample(frame: self.$secondPopoverFrame, show:self.$showSecondPopover)}, isPresented: self.$showSecondPopover, frame: self.$secondPopoverFrame, popoverType: .popover, position: self.popoverPosition, viewId: "1", settings: self.customPopoverSettings1())
+                .popoverView(content: {Text("Content")}, background: {BlurView(style: .systemChromeMaterial)}, isPresented: self.$showFirstPopover, frame: .constant(CGRect(x: 0, y: 0, width: 150, height: 150)), popoverType: .popout, position: self.popoverPosition, viewId: "0", settings: DYPopoverViewSettings(shadowRadius: 20))
+                .popoverView(content: {ContentExample(frame: self.$secondPopoverFrame, show:self.$showSecondPopover)}, background: {Color(.secondarySystemBackground)}, isPresented: self.$showSecondPopover, frame: self.$secondPopoverFrame, popoverType: .popover, position: self.popoverPosition, viewId: "1", settings: DYPopoverViewSettings(cornerRadius: (30, 30, 30, 30)))
 
          }
         }
     }
     
-    func customPopoverSettings0()->DYPopoverViewSettings {
-        
-        var settings = DYPopoverViewSettings()
-        //settings.differentArrowPosition = .topLeft
-        settings.shadowRadius = 20
-      //  settings.offset = CGPoint(x: 220, y:0)
-        return settings
-    }
-    
-    func customPopoverSettings1()->DYPopoverViewSettings {
-        
-        var settings = DYPopoverViewSettings()
-        settings.cornerRadius = (30, 30, 30, 30)
-      // settings.arrowLength = 50
-        return settings
-    }
+//    func customPopoverSettings0()->DYPopoverViewSettings {
+//
+//        var settings = DYPopoverViewSettings(shadowRadius: 20)
+//        //settings.differentArrowPosition = .topLeft
+//        settings.shadowRadius = 20
+//      //  settings.offset = CGPoint(x: 220, y:0)
+//        return settings
+//    }
+//
+//    func customPopoverSettings1()->DYPopoverViewSettings {
+//
+//        var settings = DYPopoverViewSettings(cornerRadius: (30, 30, 30, 30))
+//        settings.cornerRadius = (30, 30, 30, 30)
+//      // settings.arrowLength = 50
+//        return settings
+//    }
 }
 
 

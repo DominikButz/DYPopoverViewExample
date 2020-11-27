@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4AA02B22571010C0069D9F4 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AA02B12571010C0069D9F4 /* BlurView.swift */; };
 		B4FD9AB723924A9500DF9F37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FD9AB623924A9500DF9F37 /* AppDelegate.swift */; };
 		B4FD9AB923924A9500DF9F37 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FD9AB823924A9500DF9F37 /* SceneDelegate.swift */; };
 		B4FD9ABB23924A9500DF9F37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FD9ABA23924A9500DF9F37 /* ContentView.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B4AA02B12571010C0069D9F4 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		B4FD9AB323924A9500DF9F37 /* DYPopoverViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYPopoverViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4FD9AB623924A9500DF9F37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4FD9AB823924A9500DF9F37 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				B4FD9AB823924A9500DF9F37 /* SceneDelegate.swift */,
 				B4FD9ABA23924A9500DF9F37 /* ContentView.swift */,
 				B4FD9ACE239255A500DF9F37 /* ContentExample.swift */,
+				B4AA02B12571010C0069D9F4 /* BlurView.swift */,
 				B4FD9ACC2392525500DF9F37 /* Buttons.swift */,
 				B4FD9ABC23924A9600DF9F37 /* Assets.xcassets */,
 				B4FD9AC123924A9600DF9F37 /* LaunchScreen.storyboard */,
@@ -172,6 +175,7 @@
 				B4FD9AB923924A9500DF9F37 /* SceneDelegate.swift in Sources */,
 				B4FD9ABB23924A9500DF9F37 /* ContentView.swift in Sources */,
 				B4FD9ACF239255A500DF9F37 /* ContentExample.swift in Sources */,
+				B4AA02B22571010C0069D9F4 /* BlurView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +243,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -293,7 +297,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

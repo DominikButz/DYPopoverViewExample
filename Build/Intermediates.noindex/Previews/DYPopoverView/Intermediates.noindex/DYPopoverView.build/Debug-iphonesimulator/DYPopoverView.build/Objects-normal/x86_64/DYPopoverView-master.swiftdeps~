@@ -1,6 +1,0 @@
-version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
-options: "a7b8aa204a58800dc7df81c15d3d71b8"
-build_time: [1592626427, 356309000]
-inputs:
-  "/Users/Dominik/Documents/Programmieren/Libraries/DYPopoverView/Sources/DYPopoverView/DYPopoverViewProvider.swift": [1592626427, 176539378]
-  "/Users/Dominik/Documents/Programmieren/Libraries/DYPopoverView/Sources/DYPopoverView/RoundedArrowRectangle.swift": !dirty [1592626427, 191824594]

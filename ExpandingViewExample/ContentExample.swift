@@ -39,12 +39,19 @@ struct ContentExample: View {
                                 }.padding(.trailing, 8)
                     }.padding()
                 
+                    ScrollView {
+                        LazyVStack {
+                            ForEach(self.listContent, id: \.self) { item in
+                                Text(item).foregroundColor(.primary)
+                            }
+                        }
+                    }.frame(width: proxy.size.width - 10).background(Color(.secondarySystemBackground))
                         
-                        List(self.listContent, id: \.self) { item in
-                            Text(item).foregroundColor(.primary)
-                        }.frame(width: proxy.size.width - 10).background(Color(.secondarySystemBackground))
-                    
-            
+//                        List(self.listContent, id: \.self) { item in
+//                            Text(item).foregroundColor(.primary)
+//                        }.frame(width: proxy.size.width - 10).background(Color(.secondarySystemBackground))
+//
+//
                           HStack(alignment: .bottom) {
                               
                               Spacer()
@@ -75,7 +82,8 @@ struct ContentExample: View {
                               }
                           
 
-                }.background(Color(.secondarySystemBackground))
+                }
+                //.background(Color(.secondarySystemBackground))
                 
         }
     }
