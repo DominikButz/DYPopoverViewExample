@@ -154,7 +154,6 @@ depends-member:
 - !private ["Sl", "first"]
 - !private ["Sl", "systemGray3"]
 - !private ["7SwiftUI5ColorV", "init"]
-- !private ["7SwiftUI5ColorV", "opacity"]
 - !private ["SL", ""]
 - !private ["SL", "infinity"]
 - !private ["SL", "systemGray3"]
@@ -189,7 +188,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "first"]
 - !private ["s23CustomStringConvertibleP", "infinity"]
 - !private ["s23CustomStringConvertibleP", "init"]
-- !private ["s23CustomStringConvertibleP", "opacity"]
 - !private ["s23CustomStringConvertibleP", "spring"]
 - !private ["s23CustomStringConvertibleP", "systemGray3"]
 - ["13DYPopoverView0aB16OriginPreferenceV", "Anchor"]
@@ -269,7 +267,6 @@ depends-member:
 - !private ["SQ", "minX"]
 - !private ["SQ", "minY"]
 - ["SQ", "none"]
-- !private ["SQ", "opacity"]
 - !private ["SQ", "opposite"]
 - !private ["SQ", "popover"]
 - ["SQ", "right"]
@@ -375,7 +372,6 @@ depends-member:
 - !private ["SH", "init"]
 - ["SH", "left"]
 - ["SH", "none"]
-- !private ["SH", "opacity"]
 - !private ["SH", "opposite"]
 - !private ["SH", "popover"]
 - ["SH", "right"]
@@ -542,7 +538,6 @@ depends-member:
 - !private ["ST", "systemGray3"]
 - !private ["7SwiftUI5ShapeP", "init"]
 - !private ["7SwiftUI10ShapeStyleP", "init"]
-- !private ["7SwiftUI10ShapeStyleP", "opacity"]
 - !private ["s13SignedNumericP", "-"]
 - !private ["s13SignedNumericP", ""]
 - !private ["s13SignedNumericP", "infinity"]
@@ -662,7 +657,6 @@ depends-member:
 - !private ["s24_DestructorSafeContainerP", "first"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "systemGray3"]
-- ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
 - ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "systemGray3"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
@@ -787,7 +781,6 @@ depends-nominal:
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
-- "s33_ExpressibleByBuiltinFloatLiteralP"
 - "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
@@ -842,4 +835,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "88d728c5d9012d46246ca5954398d21a"
+interface-hash: "3d08c7457d6c9a7683506cc0355d0461"

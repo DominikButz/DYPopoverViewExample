@@ -12,7 +12,6 @@ provides-dynamic-lookup:
 depends-top-level:
 - "*"
 - "..<"
-- "AssignmentPrecedence"
 - "BlurView"
 - "BooleanLiteralType"
 - "Button"
@@ -81,6 +80,7 @@ depends-member:
 - !private ["s7CVarArgP", "systemBackground"]
 - !private ["s7CVarArgP", "toggle"]
 - !private ["s12CaseIterableP", "allCases"]
+- !private ["s12CaseIterableP", "bottomRight"]
 - !private ["s12CaseIterableP", "dark"]
 - !private ["s12CaseIterableP", "rawValue"]
 - ["s12CaseIterableP", "top"]
@@ -103,6 +103,7 @@ depends-member:
 - ["20DYPopoverViewExample07ContentB0V", "$secondPopoverFrame"]
 - ["20DYPopoverViewExample07ContentB0V", "$showFirstPopover"]
 - ["20DYPopoverViewExample07ContentB0V", "$showSecondPopover"]
+- ["20DYPopoverViewExample07ContentB0V", "$showThirdPopover"]
 - ["20DYPopoverViewExample07ContentB0V", "$viewId"]
 - !private ["20DYPopoverViewExample07ContentB0V", "BlurView"]
 - ["20DYPopoverViewExample07ContentB0V", "Body"]
@@ -110,7 +111,7 @@ depends-member:
 - ["20DYPopoverViewExample07ContentB0V", "CGRect"]
 - !private ["20DYPopoverViewExample07ContentB0V", "Color"]
 - !private ["20DYPopoverViewExample07ContentB0V", "ContentExample"]
-- ["20DYPopoverViewExample07ContentB0V", "DYPopoverViewSettings"]
+- !private ["20DYPopoverViewExample07ContentB0V", "DYPopoverViewSettings"]
 - ["20DYPopoverViewExample07ContentB0V", "Default_Body"]
 - !private ["20DYPopoverViewExample07ContentB0V", "ForEach"]
 - !private ["20DYPopoverViewExample07ContentB0V", "GeometryReader"]
@@ -133,17 +134,17 @@ depends-member:
 - !private ["20DYPopoverViewExample07ContentB0V", "_secondPopoverFrame"]
 - !private ["20DYPopoverViewExample07ContentB0V", "_showFirstPopover"]
 - !private ["20DYPopoverViewExample07ContentB0V", "_showSecondPopover"]
+- !private ["20DYPopoverViewExample07ContentB0V", "_showThirdPopover"]
 - !private ["20DYPopoverViewExample07ContentB0V", "_viewId"]
 - ["20DYPopoverViewExample07ContentB0V", "_viewListCount"]
 - ["20DYPopoverViewExample07ContentB0V", "body"]
-- ["20DYPopoverViewExample07ContentB0V", "customPopoverSettings0"]
-- ["20DYPopoverViewExample07ContentB0V", "customPopoverSettings1"]
 - !private ["20DYPopoverViewExample07ContentB0V", "environment"]
 - ["20DYPopoverViewExample07ContentB0V", "init"]
 - ["20DYPopoverViewExample07ContentB0V", "popoverPosition"]
 - ["20DYPopoverViewExample07ContentB0V", "secondPopoverFrame"]
 - ["20DYPopoverViewExample07ContentB0V", "showFirstPopover"]
 - ["20DYPopoverViewExample07ContentB0V", "showSecondPopover"]
+- ["20DYPopoverViewExample07ContentB0V", "showThirdPopover"]
 - ["20DYPopoverViewExample07ContentB0V", "viewId"]
 - !private ["20DYPopoverViewExample07ContentB9_PreviewsV", "ContentView"]
 - ["20DYPopoverViewExample07ContentB9_PreviewsV", "Default_Previews"]
@@ -189,9 +190,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "systemBackground"]
 - !private ["s23CustomStringConvertibleP", "toggle"]
-- !private ["13DYPopoverView0aB8SettingsV", "cornerRadius"]
 - !private ["13DYPopoverView0aB8SettingsV", "init"]
-- !private ["13DYPopoverView0aB8SettingsV", "shadowRadius"]
 - !private ["10Foundation12DataProtocolP", ""]
 - !private ["10Foundation12DataProtocolP", "count"]
 - !private ["10Foundation12DataProtocolP", "rawValue"]
@@ -218,6 +217,7 @@ depends-member:
 - ["SQ", ""]
 - !private ["SQ", "accentColor"]
 - !private ["SQ", "allCases"]
+- !private ["SQ", "bottomRight"]
 - ["SQ", "bounds"]
 - !private ["SQ", "center"]
 - !private ["SQ", "count"]
@@ -265,6 +265,7 @@ depends-member:
 - ["SH", ""]
 - !private ["SH", "accentColor"]
 - !private ["SH", "allCases"]
+- !private ["SH", "bottomRight"]
 - ["SH", "bounds"]
 - !private ["SH", "count"]
 - !private ["SH", "dark"]
@@ -339,6 +340,7 @@ depends-member:
 - !private ["Sm", "subscript"]
 - !private ["Sm", "systemBackground"]
 - !private ["SY", "allCases"]
+- !private ["SY", "bottomRight"]
 - !private ["SY", "init"]
 - !private ["SY", "rawValue"]
 - !private ["SY", "systemChromeMaterial"]
@@ -386,6 +388,7 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "$secondPopoverFrame"]
 - !private ["7SwiftUI4ViewP", "$showFirstPopover"]
 - !private ["7SwiftUI4ViewP", "$showSecondPopover"]
+- !private ["7SwiftUI4ViewP", "$showThirdPopover"]
 - !private ["7SwiftUI4ViewP", "BlurView"]
 - ["7SwiftUI4ViewP", "Body"]
 - !private ["7SwiftUI4ViewP", "Button"]
@@ -414,11 +417,11 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "anchorView"]
 - !private ["7SwiftUI4ViewP", "background"]
 - ["7SwiftUI4ViewP", "body"]
-- !private ["7SwiftUI4ViewP", "customPopoverSettings0"]
-- !private ["7SwiftUI4ViewP", "customPopoverSettings1"]
 - !private ["7SwiftUI4ViewP", "environment"]
 - !private ["7SwiftUI4ViewP", "frame"]
 - !private ["7SwiftUI4ViewP", "init"]
+- !private ["7SwiftUI4ViewP", "navigationBarItems"]
+- !private ["7SwiftUI4ViewP", "navigationTitle"]
 - !private ["7SwiftUI4ViewP", "padding"]
 - !private ["7SwiftUI4ViewP", "popoverPosition"]
 - !private ["7SwiftUI4ViewP", "popoverView"]
@@ -426,6 +429,7 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "secondPopoverFrame"]
 - !private ["7SwiftUI4ViewP", "showFirstPopover"]
 - !private ["7SwiftUI4ViewP", "showSecondPopover"]
+- !private ["7SwiftUI4ViewP", "showThirdPopover"]
 - !private ["7SwiftUI4ViewP", "tag"]
 - !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
 - !private ["7SwiftUI11ViewBuilderV", "buildExpression"]
@@ -433,6 +437,7 @@ depends-member:
 - !private ["7SwiftUI11ViewBuilderV", "buildIf"]
 - !private ["7SwiftUI11ViewBuilderV", "buildOptional"]
 - !private ["13DYPopoverView0B8PositionO", "allCases"]
+- !private ["13DYPopoverView0B8PositionO", "bottomRight"]
 - !private ["13DYPopoverView0B8PositionO", "rawValue"]
 - ["13DYPopoverView0B8PositionO", "top"]
 - !private ["s14_ArrayProtocolP", "count"]
@@ -642,4 +647,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "c851ce33c0bd3258fbacbe3f41c73906"
+interface-hash: "9562c8f234e18e54d7f9498389dbec56"
