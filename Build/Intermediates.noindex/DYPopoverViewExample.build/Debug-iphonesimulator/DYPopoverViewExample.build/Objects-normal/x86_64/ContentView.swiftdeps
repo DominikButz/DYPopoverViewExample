@@ -23,9 +23,9 @@ depends-top-level:
 - "DYPopoverViewSettings"
 - "FloatLiteralType"
 - "ForEach"
-- "GeometryReader"
+- !private "GeometryReader"
 - "IntegerLiteralType"
-- !private "NavigationView"
+- "NavigationView"
 - "Picker"
 - "PreviewProvider"
 - "Spacer"
@@ -104,6 +104,7 @@ depends-member:
 - ["20DYPopoverViewExample07ContentB0V", "$showFirstPopover"]
 - ["20DYPopoverViewExample07ContentB0V", "$showSecondPopover"]
 - ["20DYPopoverViewExample07ContentB0V", "$showThirdPopover"]
+- !private ["20DYPopoverViewExample07ContentB0V", "$thirdPopoverBounds"]
 - ["20DYPopoverViewExample07ContentB0V", "$viewId"]
 - !private ["20DYPopoverViewExample07ContentB0V", "BlurView"]
 - ["20DYPopoverViewExample07ContentB0V", "Body"]
@@ -135,6 +136,7 @@ depends-member:
 - !private ["20DYPopoverViewExample07ContentB0V", "_showFirstPopover"]
 - !private ["20DYPopoverViewExample07ContentB0V", "_showSecondPopover"]
 - !private ["20DYPopoverViewExample07ContentB0V", "_showThirdPopover"]
+- !private ["20DYPopoverViewExample07ContentB0V", "_thirdPopoverBounds"]
 - !private ["20DYPopoverViewExample07ContentB0V", "_viewId"]
 - ["20DYPopoverViewExample07ContentB0V", "_viewListCount"]
 - ["20DYPopoverViewExample07ContentB0V", "body"]
@@ -146,6 +148,7 @@ depends-member:
 - ["20DYPopoverViewExample07ContentB0V", "showFirstPopover"]
 - ["20DYPopoverViewExample07ContentB0V", "showSecondPopover"]
 - ["20DYPopoverViewExample07ContentB0V", "showThirdPopover"]
+- !private ["20DYPopoverViewExample07ContentB0V", "thirdPopoverBounds"]
 - ["20DYPopoverViewExample07ContentB0V", "viewId"]
 - !private ["20DYPopoverViewExample07ContentB9_PreviewsV", "ContentView"]
 - ["20DYPopoverViewExample07ContentB9_PreviewsV", "Default_Previews"]
@@ -263,6 +266,7 @@ depends-member:
 - !private ["7SwiftUI7ForEachV", "init"]
 - !private ["7SwiftUI13GeometryProxyV", "size"]
 - !private ["7SwiftUI14GeometryReaderV", "init"]
+- !private ["7SwiftUI14GeometryReaderV", "popoverView"]
 - ["SH", ""]
 - !private ["SH", "accentColor"]
 - !private ["SH", "allCases"]
@@ -649,4 +653,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "cc89e42d52fefee763dbae844d36603c"
+interface-hash: "3ba7e5311c8c2bbb23e7b462b84a28bb"

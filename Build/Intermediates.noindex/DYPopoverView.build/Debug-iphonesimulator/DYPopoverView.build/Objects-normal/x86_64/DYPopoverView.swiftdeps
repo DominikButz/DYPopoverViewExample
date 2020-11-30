@@ -66,6 +66,7 @@ depends-top-level:
 - "PreferenceKey"
 - !private "RoundedArrowRectangle"
 - "String"
+- !private "StringLiteralType"
 - "TernaryPrecedence"
 - "View"
 - "ViewBuilder"
@@ -74,10 +75,12 @@ depends-top-level:
 - "ZStack"
 - !private "addOffset"
 - !private "arrowLength"
+- "defaultOriginFrame"
 - !private "isPresented"
 - !private "originBounds"
 - !private "popoverType"
 - !private "position"
+- !private "print"
 - !private "viewFrame"
 depends-member:
 - !private ["s18AdditiveArithmeticP", ""]
@@ -185,6 +188,8 @@ depends-member:
 - !private ["s17CustomReflectableP", "zero"]
 - !private ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
 - !private ["s23CustomStringConvertibleP", "first"]
 - !private ["s23CustomStringConvertibleP", "infinity"]
 - !private ["s23CustomStringConvertibleP", "init"]
@@ -233,6 +238,8 @@ depends-member:
 - !private ["Se", "systemGray3"]
 - !private ["Se", "width"]
 - !private ["Se", "zero"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
 - !private ["7SwiftUI15DynamicPropertyP", "wrappedValue"]
 - !private ["7SwiftUI18DynamicViewContentP", "animation"]
 - !private ["7SwiftUI18DynamicViewContentP", "background"]
@@ -294,7 +301,9 @@ depends-member:
 - !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
 - !private ["s23ExpressibleByNilLiteralP", "infinity"]
 - !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
 - !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
 - !private ["s32ExpressibleByStringInterpolationP", "systemGray3"]
 - !private ["s26ExpressibleByStringLiteralP", ""]
 - !private ["s26ExpressibleByStringLiteralP", "systemGray3"]
@@ -495,11 +504,13 @@ depends-member:
 - ["13DYPopoverView07PopoverB8ModifierV", "backgroundView"]
 - ["13DYPopoverView07PopoverB8ModifierV", "body"]
 - ["13DYPopoverView07PopoverB8ModifierV", "contentView"]
+- ["13DYPopoverView07PopoverB8ModifierV", "defaultOriginFrame"]
 - ["13DYPopoverView07PopoverB8ModifierV", "frame"]
 - ["13DYPopoverView07PopoverB8ModifierV", "init"]
 - ["13DYPopoverView07PopoverB8ModifierV", "popoverType"]
 - ["13DYPopoverView07PopoverB8ModifierV", "popoverView"]
 - ["13DYPopoverView07PopoverB8ModifierV", "position"]
+- !private ["13DYPopoverView07PopoverB8ModifierV", "print"]
 - ["13DYPopoverView07PopoverB8ModifierV", "settings"]
 - ["13DYPopoverView07PopoverB8ModifierV", "show"]
 - ["13DYPopoverView07PopoverB8ModifierV", "viewId"]
@@ -548,8 +559,13 @@ depends-member:
 - !private ["Sx", "distance"]
 - !private ["Sx", "infinity"]
 - !private ["SS", "systemGray3"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
 - !private ["Sy", "systemGray3"]
 - !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
 - !private ["s16TextOutputStreamP", "systemGray3"]
 - !private ["s20TextOutputStreamableP", ""]
 - !private ["s20TextOutputStreamableP", "systemGray3"]
@@ -615,6 +631,7 @@ depends-member:
 - !private ["7SwiftUI12ViewModifierP", "backgroundView"]
 - ["7SwiftUI12ViewModifierP", "body"]
 - !private ["7SwiftUI12ViewModifierP", "contentView"]
+- !private ["7SwiftUI12ViewModifierP", "defaultOriginFrame"]
 - !private ["7SwiftUI12ViewModifierP", "frame"]
 - !private ["7SwiftUI12ViewModifierP", "init"]
 - !private ["7SwiftUI12ViewModifierP", "isPresented"]
@@ -624,6 +641,7 @@ depends-member:
 - !private ["7SwiftUI12ViewModifierP", "popoverType"]
 - !private ["7SwiftUI12ViewModifierP", "popoverView"]
 - !private ["7SwiftUI12ViewModifierP", "position"]
+- !private ["7SwiftUI12ViewModifierP", "print"]
 - !private ["7SwiftUI12ViewModifierP", "settings"]
 - !private ["7SwiftUI12ViewModifierP", "show"]
 - !private ["7SwiftUI12ViewModifierP", "viewFrame"]
@@ -658,6 +676,7 @@ depends-member:
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "systemGray3"]
 - ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "systemGray3"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "systemGray3"]
@@ -715,6 +734,7 @@ depends-nominal:
 - "13DYPopoverView0aB8SettingsV"
 - !private "10Foundation12DataProtocolP"
 - !private "Se"
+- !private "s26DefaultStringInterpolationV"
 - !private "7SwiftUI15DynamicPropertyP"
 - !private "7SwiftUI18DynamicViewContentP"
 - !private "SE"
@@ -764,6 +784,7 @@ depends-nominal:
 - !private "7SwiftUI6AnchorV6SourceV"
 - !private "Sx"
 - !private "SS"
+- !private "s27StringInterpolationProtocolP"
 - !private "Sy"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
@@ -835,4 +856,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "3d08c7457d6c9a7683506cc0355d0461"
+interface-hash: "8e202bb3abbbb0b9933cf7981dde4f5e"
