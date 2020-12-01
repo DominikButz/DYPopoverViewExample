@@ -74,7 +74,6 @@ depends-top-level:
 - "ZStack"
 - !private "addOffset"
 - !private "arrowLength"
-- "defaultOriginFrame"
 - !private "isPresented"
 - !private "originBounds"
 - !private "popoverType"
@@ -496,7 +495,6 @@ depends-member:
 - ["13DYPopoverView07PopoverB8ModifierV", "backgroundView"]
 - ["13DYPopoverView07PopoverB8ModifierV", "body"]
 - ["13DYPopoverView07PopoverB8ModifierV", "contentView"]
-- ["13DYPopoverView07PopoverB8ModifierV", "defaultOriginFrame"]
 - ["13DYPopoverView07PopoverB8ModifierV", "frame"]
 - ["13DYPopoverView07PopoverB8ModifierV", "init"]
 - ["13DYPopoverView07PopoverB8ModifierV", "popoverType"]
@@ -617,7 +615,6 @@ depends-member:
 - !private ["7SwiftUI12ViewModifierP", "backgroundView"]
 - ["7SwiftUI12ViewModifierP", "body"]
 - !private ["7SwiftUI12ViewModifierP", "contentView"]
-- !private ["7SwiftUI12ViewModifierP", "defaultOriginFrame"]
 - !private ["7SwiftUI12ViewModifierP", "frame"]
 - !private ["7SwiftUI12ViewModifierP", "init"]
 - !private ["7SwiftUI12ViewModifierP", "isPresented"]
@@ -838,4 +835,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "8e202bb3abbbb0b9933cf7981dde4f5e"
+interface-hash: "3d08c7457d6c9a7683506cc0355d0461"

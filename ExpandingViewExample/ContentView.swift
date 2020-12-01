@@ -18,8 +18,6 @@ struct ContentView: View {
 
     @State private var viewId: String = ""
     @State private  var popoverPosition: ViewPosition = .top
-    @State private var thirdPopoverBounds: CGRect?
-    
     
     var body: some View {
         GeometryReader {  proxy in
@@ -60,13 +58,12 @@ struct ContentView: View {
                 .popoverView(content: {ContentExample(frame: self.$secondPopoverFrame, show:self.$showSecondPopover)}, background: {Color(.secondarySystemBackground)}, isPresented: self.$showSecondPopover, frame: self.$secondPopoverFrame, popoverType: .popover, position: self.popoverPosition, viewId: "1", settings: DYPopoverViewSettings(cornerRadius: (30, 30, 30, 30)))
                 .navigationBarItems(leading: Button("Pop"){self.showThirdPopover.toggle()}.anchorView(viewId: "3") )
                 .navigationTitle(Text("Test"))
-
-              //  .coordinateSpace(name: "popoverSpace")
-
-         }
-        }.popoverView(content: { Text("Content")
-        }, background: { Color(.secondarySystemBackground) }, isPresented: self.$showThirdPopover, frame: .constant(CGRect(x:0, y:0, width: 200, height: 200)), popoverType: .popout, position: .bottomRight, viewId: "3")
-    }
+        }
+    }.popoverView(content: { Text("Content")
+    }, background: { Color(.secondarySystemBackground).onTapGesture {
+        self.showThirdPopover = false
+    } }, isPresented: self.$showThirdPopover, frame: .constant(CGRect(x:0, y:0, width: 200, height: 200)), popoverType: .popout, position: .bottomRight, viewId: "3")
+   }
 
     
 //    func customPopoverSettings0()->DYPopoverViewSettings {
