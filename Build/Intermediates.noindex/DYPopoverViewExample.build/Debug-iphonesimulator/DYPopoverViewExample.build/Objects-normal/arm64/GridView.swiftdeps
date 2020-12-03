@@ -1,0 +1,515 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GridView"
+- "CellView"
+provides-nominal:
+- "20DYPopoverViewExample04GridB0V"
+- "20DYPopoverViewExample04CellB0V"
+provides-member:
+- ["20DYPopoverViewExample04GridB0V", ""]
+- ["20DYPopoverViewExample04CellB0V", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "$popoverOriginFrame"
+- "..."
+- !private "Array"
+- "BooleanLiteralType"
+- "Button"
+- "CGFloat"
+- "CGRect"
+- "CellView"
+- "Color"
+- "FloatLiteralType"
+- "ForEach"
+- "GridItem"
+- "GridView"
+- "HStack"
+- "Image"
+- "IntegerLiteralType"
+- "LazyVGrid"
+- !private "NavigationView"
+- !private "RoundedRectangle"
+- "ScrollView"
+- "Spacer"
+- !private "StackNavigationViewStyle"
+- "State"
+- "String"
+- "StringLiteralType"
+- "Text"
+- !private "UnicodeScalarType"
+- !private "VStack"
+- "View"
+- !private "availableWidth"
+- "data"
+- "item"
+- "showPopover"
+depends-member:
+- ["7SwiftUI10AnimatableP", ""]
+- !private ["7SwiftUI10AnimatableP", "foregroundColor"]
+- !private ["7SwiftUI10AnimatableP", "init"]
+- ["7SwiftUI10AnimatableP", "zero"]
+- ["SK", ""]
+- ["SK", "map"]
+- !private ["SK", "secondarySystemBackground"]
+- !private ["7SwiftUI7BindingV", "constant"]
+- !private ["Sb", "toggle"]
+- !private ["7SwiftUI6ButtonV", "init"]
+- !private ["7SwiftUI6ButtonV", "padding"]
+- !private ["So10CGColorRefa", "secondarySystemBackground"]
+- !private ["So6CGRectV", "init"]
+- ["So6CGRectV", "zero"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "secondarySystemBackground"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "toggle"]
+- !private ["s7CVarArgP", "secondarySystemBackground"]
+- !private ["s7CVarArgP", "toggle"]
+- !private ["s12CaseIterableP", "bottom"]
+- ["20DYPopoverViewExample04CellB0V", "$popoverOriginFrame"]
+- ["20DYPopoverViewExample04CellB0V", "$showPopover"]
+- ["20DYPopoverViewExample04CellB0V", "Body"]
+- !private ["20DYPopoverViewExample04CellB0V", "Button"]
+- ["20DYPopoverViewExample04CellB0V", "CGFloat"]
+- ["20DYPopoverViewExample04CellB0V", "CGRect"]
+- !private ["20DYPopoverViewExample04CellB0V", "Color"]
+- ["20DYPopoverViewExample04CellB0V", "Default_Body"]
+- !private ["20DYPopoverViewExample04CellB0V", "HStack"]
+- !private ["20DYPopoverViewExample04CellB0V", "Image"]
+- !private ["20DYPopoverViewExample04CellB0V", "RoundedRectangle"]
+- !private ["20DYPopoverViewExample04CellB0V", "Spacer"]
+- ["20DYPopoverViewExample04CellB0V", "State"]
+- ["20DYPopoverViewExample04CellB0V", "String"]
+- !private ["20DYPopoverViewExample04CellB0V", "Text"]
+- !private ["20DYPopoverViewExample04CellB0V", "VStack"]
+- ["20DYPopoverViewExample04CellB0V", "View"]
+- ["20DYPopoverViewExample04CellB0V", ""]
+- ["20DYPopoverViewExample04CellB0V", "_Default_Body"]
+- ["20DYPopoverViewExample04CellB0V", "_makeView"]
+- ["20DYPopoverViewExample04CellB0V", "_makeViewList"]
+- !private ["20DYPopoverViewExample04CellB0V", "_popoverOriginFrame"]
+- !private ["20DYPopoverViewExample04CellB0V", "_showPopover"]
+- ["20DYPopoverViewExample04CellB0V", "_viewListCount"]
+- ["20DYPopoverViewExample04CellB0V", "availableWidth"]
+- ["20DYPopoverViewExample04CellB0V", "body"]
+- ["20DYPopoverViewExample04CellB0V", "init"]
+- ["20DYPopoverViewExample04CellB0V", "item"]
+- ["20DYPopoverViewExample04CellB0V", "popoverOriginFrame"]
+- ["20DYPopoverViewExample04CellB0V", "showPopover"]
+- ["SN", "map"]
+- ["Sl", ""]
+- ["Sl", "map"]
+- !private ["Sl", "secondarySystemBackground"]
+- !private ["7SwiftUI5ColorV", "blue"]
+- !private ["7SwiftUI5ColorV", "init"]
+- !private ["7SwiftUI5ColorV", "onTapGesture"]
+- !private ["7SwiftUI5ColorV", "white"]
+- ["SL", ""]
+- !private ["SL", "secondarySystemBackground"]
+- !private ["s28CustomDebugStringConvertibleP", "blue"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "secondarySystemBackground"]
+- !private ["s28CustomDebugStringConvertibleP", "white"]
+- ["s28CustomDebugStringConvertibleP", "zero"]
+- !private ["s17CustomReflectableP", "blue"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "secondarySystemBackground"]
+- !private ["s17CustomReflectableP", "toggle"]
+- !private ["s17CustomReflectableP", "white"]
+- ["s17CustomReflectableP", "zero"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "appendInterpolation"]
+- ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "blue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "onTapGesture"]
+- !private ["s23CustomStringConvertibleP", "secondarySystemBackground"]
+- !private ["s23CustomStringConvertibleP", "toggle"]
+- !private ["s23CustomStringConvertibleP", "white"]
+- !private ["Se", "blue"]
+- !private ["Se", "init"]
+- ["Se", "map"]
+- !private ["Se", "secondarySystemBackground"]
+- !private ["Se", "toggle"]
+- !private ["Se", "white"]
+- ["Se", "zero"]
+- ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["7SwiftUI15DynamicPropertyP", "constant"]
+- ["7SwiftUI15DynamicPropertyP", "init"]
+- ["7SwiftUI15DynamicPropertyP", "wrappedValue"]
+- !private ["7SwiftUI18DynamicViewContentP", "init"]
+- !private ["SE", "blue"]
+- !private ["SE", "init"]
+- ["SE", "map"]
+- !private ["SE", "secondarySystemBackground"]
+- !private ["SE", "toggle"]
+- !private ["SE", "white"]
+- ["SE", "zero"]
+- ["SQ", ""]
+- !private ["SQ", "blue"]
+- !private ["SQ", "bottom"]
+- !private ["SQ", "center"]
+- !private ["SQ", "foregroundColor"]
+- !private ["SQ", "horizontal"]
+- !private ["SQ", "init"]
+- ["SQ", "map"]
+- !private ["SQ", "onTapGesture"]
+- !private ["SQ", "popout"]
+- !private ["SQ", "secondarySystemBackground"]
+- !private ["SQ", "toggle"]
+- !private ["SQ", "white"]
+- ["SQ", "zero"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "horizontal"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "toggle"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "secondarySystemBackground"]
+- !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "blue"]
+- !private ["s23ExpressibleByNilLiteralP", "white"]
+- ["s23ExpressibleByNilLiteralP", "zero"]
+- ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "secondarySystemBackground"]
+- !private ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "secondarySystemBackground"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "secondarySystemBackground"]
+- !private ["7SwiftUI7ForEachV", "init"]
+- !private ["7SwiftUI7GestureP", "blue"]
+- !private ["7SwiftUI7GestureP", "white"]
+- ["7SwiftUI7GestureP", "zero"]
+- !private ["7SwiftUI8GridItemV", "init"]
+- ["20DYPopoverViewExample04GridB0V", "$data"]
+- ["20DYPopoverViewExample04GridB0V", "Body"]
+- ["20DYPopoverViewExample04GridB0V", "CGFloat"]
+- !private ["20DYPopoverViewExample04GridB0V", "CellView"]
+- ["20DYPopoverViewExample04GridB0V", "Default_Body"]
+- !private ["20DYPopoverViewExample04GridB0V", "ForEach"]
+- !private ["20DYPopoverViewExample04GridB0V", "GridItem"]
+- !private ["20DYPopoverViewExample04GridB0V", "LazyVGrid"]
+- !private ["20DYPopoverViewExample04GridB0V", "NavigationView"]
+- !private ["20DYPopoverViewExample04GridB0V", "ScrollView"]
+- !private ["20DYPopoverViewExample04GridB0V", "StackNavigationViewStyle"]
+- ["20DYPopoverViewExample04GridB0V", "State"]
+- !private ["20DYPopoverViewExample04GridB0V", "Text"]
+- ["20DYPopoverViewExample04GridB0V", "View"]
+- ["20DYPopoverViewExample04GridB0V", ""]
+- ["20DYPopoverViewExample04GridB0V", "_Default_Body"]
+- !private ["20DYPopoverViewExample04GridB0V", "_data"]
+- ["20DYPopoverViewExample04GridB0V", "_makeView"]
+- ["20DYPopoverViewExample04GridB0V", "_makeViewList"]
+- ["20DYPopoverViewExample04GridB0V", "_viewListCount"]
+- ["20DYPopoverViewExample04GridB0V", "availableWidth"]
+- ["20DYPopoverViewExample04GridB0V", "body"]
+- ["20DYPopoverViewExample04GridB0V", "data"]
+- ["20DYPopoverViewExample04GridB0V", "init"]
+- !private ["7SwiftUI6HStackV", "init"]
+- ["SH", ""]
+- !private ["SH", "blue"]
+- !private ["SH", "bottom"]
+- !private ["SH", "init"]
+- ["SH", "map"]
+- !private ["SH", "onTapGesture"]
+- !private ["SH", "popout"]
+- !private ["SH", "secondarySystemBackground"]
+- !private ["SH", "toggle"]
+- !private ["SH", "white"]
+- ["SH", "zero"]
+- !private ["7SwiftUI19HorizontalAlignmentV", "center"]
+- !private ["7SwiftUI5ImageV", "foregroundColor"]
+- !private ["7SwiftUI5ImageV", "init"]
+- !private ["7SwiftUI15InsettableShapeP", "foregroundColor"]
+- !private ["7SwiftUI15InsettableShapeP", "init"]
+- ["s7KeyPathC", ""]
+- !private ["7SwiftUI9LazyVGridV", "init"]
+- !private ["7SwiftUI9LazyVGridV", "navigationBarTitle"]
+- ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "secondarySystemBackground"]
+- !private ["s25LosslessStringConvertibleP", "toggle"]
+- !private ["s10MirrorPathP", "secondarySystemBackground"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "secondarySystemBackground"]
+- !private ["So9NSCopyingP", "secondarySystemBackground"]
+- !private ["So21NSItemProviderReadingP", "secondarySystemBackground"]
+- !private ["So21NSItemProviderWritingP", "secondarySystemBackground"]
+- !private ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "secondarySystemBackground"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "secondarySystemBackground"]
+- !private ["So14NSSecureCodingP", "secondarySystemBackground"]
+- !private ["7SwiftUI14NavigationViewV", "init"]
+- !private ["7SwiftUI14NavigationViewV", "navigationViewStyle"]
+- !private ["7SwiftUI19NavigationViewStyleP", "init"]
+- !private ["s9OptionSetP", "horizontal"]
+- !private ["Sq", "blue"]
+- !private ["Sq", "white"]
+- ["Sq", "zero"]
+- !private ["13DYPopoverView11PopoverTypeO", "popout"]
+- ["Sk", "map"]
+- ["SX", "map"]
+- !private ["Sm", "secondarySystemBackground"]
+- !private ["SY", ""]
+- !private ["SY", "bottom"]
+- !private ["SY", "horizontal"]
+- !private ["7SwiftUI16RoundedRectangleV", "foregroundColor"]
+- !private ["7SwiftUI16RoundedRectangleV", "init"]
+- !private ["7SwiftUI10ScrollViewV", "init"]
+- ["ST", ""]
+- ["ST", "map"]
+- !private ["ST", "secondarySystemBackground"]
+- !private ["7SwiftUI4EdgeO3SetV", "horizontal"]
+- !private ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "horizontal"]
+- !private ["7SwiftUI5ShapeP", ""]
+- !private ["7SwiftUI5ShapeP", "foregroundColor"]
+- !private ["7SwiftUI5ShapeP", "init"]
+- !private ["7SwiftUI10ShapeStyleP", "blue"]
+- !private ["7SwiftUI10ShapeStyleP", "init"]
+- !private ["7SwiftUI10ShapeStyleP", "onTapGesture"]
+- !private ["7SwiftUI10ShapeStyleP", "white"]
+- !private ["7SwiftUI8GridItemV4SizeO", "adaptive"]
+- !private ["7SwiftUI6SpacerV", "init"]
+- !private ["7SwiftUI24StackNavigationViewStyleV", "init"]
+- ["7SwiftUI5StateV", "init"]
+- ["7SwiftUI5StateV", "projectedValue"]
+- ["7SwiftUI5StateV", "subscript"]
+- ["7SwiftUI5StateV", "wrappedValue"]
+- !private ["SS", "secondarySystemBackground"]
+- ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- ["s27StringInterpolationProtocolP", "appendLiteral"]
+- ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "secondarySystemBackground"]
+- !private ["7SwiftUI4TextV", "init"]
+- ["s16TextOutputStreamP", ""]
+- ["s16TextOutputStreamP", "appendInterpolation"]
+- ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "secondarySystemBackground"]
+- ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "secondarySystemBackground"]
+- !private ["So7UIColorC", "secondarySystemBackground"]
+- !private ["7SwiftUI6VStackV", "frame"]
+- !private ["7SwiftUI6VStackV", "init"]
+- !private ["7SwiftUI4ViewP", "$popoverOriginFrame"]
+- !private ["7SwiftUI4ViewP", "$showPopover"]
+- ["7SwiftUI4ViewP", "Body"]
+- !private ["7SwiftUI4ViewP", "Button"]
+- !private ["7SwiftUI4ViewP", "CGRect"]
+- !private ["7SwiftUI4ViewP", "CellView"]
+- !private ["7SwiftUI4ViewP", "Color"]
+- ["7SwiftUI4ViewP", "Default_Body"]
+- !private ["7SwiftUI4ViewP", "ForEach"]
+- !private ["7SwiftUI4ViewP", "GridItem"]
+- !private ["7SwiftUI4ViewP", "HStack"]
+- !private ["7SwiftUI4ViewP", "Image"]
+- !private ["7SwiftUI4ViewP", "LazyVGrid"]
+- !private ["7SwiftUI4ViewP", "NavigationView"]
+- !private ["7SwiftUI4ViewP", "RoundedRectangle"]
+- !private ["7SwiftUI4ViewP", "ScrollView"]
+- !private ["7SwiftUI4ViewP", "Spacer"]
+- !private ["7SwiftUI4ViewP", "StackNavigationViewStyle"]
+- ["7SwiftUI4ViewP", "State"]
+- !private ["7SwiftUI4ViewP", "Text"]
+- !private ["7SwiftUI4ViewP", "VStack"]
+- ["7SwiftUI4ViewP", ""]
+- ["7SwiftUI4ViewP", "_Default_Body"]
+- ["7SwiftUI4ViewP", "_makeView"]
+- ["7SwiftUI4ViewP", "_makeViewList"]
+- ["7SwiftUI4ViewP", "_viewListCount"]
+- !private ["7SwiftUI4ViewP", "anchorFrame"]
+- !private ["7SwiftUI4ViewP", "availableWidth"]
+- !private ["7SwiftUI4ViewP", "background"]
+- !private ["7SwiftUI4ViewP", "blue"]
+- ["7SwiftUI4ViewP", "body"]
+- !private ["7SwiftUI4ViewP", "data"]
+- !private ["7SwiftUI4ViewP", "foregroundColor"]
+- !private ["7SwiftUI4ViewP", "frame"]
+- !private ["7SwiftUI4ViewP", "init"]
+- !private ["7SwiftUI4ViewP", "item"]
+- !private ["7SwiftUI4ViewP", "navigationBarTitle"]
+- !private ["7SwiftUI4ViewP", "navigationViewStyle"]
+- !private ["7SwiftUI4ViewP", "onTapGesture"]
+- !private ["7SwiftUI4ViewP", "padding"]
+- !private ["7SwiftUI4ViewP", "popoverOriginFrame"]
+- !private ["7SwiftUI4ViewP", "popoverView"]
+- !private ["7SwiftUI4ViewP", "showPopover"]
+- !private ["7SwiftUI4ViewP", "white"]
+- ["7SwiftUI4ViewP", "zero"]
+- !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
+- !private ["7SwiftUI11ViewBuilderV", "buildExpression"]
+- !private ["7SwiftUI11ViewBuilderV", "buildFinalResult"]
+- !private ["7SwiftUI11ViewBuilderV", "buildIf"]
+- !private ["7SwiftUI11ViewBuilderV", "buildOptional"]
+- !private ["13DYPopoverView0B8PositionO", "bottom"]
+- !private ["14CoreFoundation9_CFObjectP", "secondarySystemBackground"]
+- !private ["12CoreGraphics22_CGColorInitTrampolineP", "secondarySystemBackground"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "secondarySystemBackground"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "toggle"]
+- ["s30_CustomPlaygroundQuickLookableP", "zero"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "toggle"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "secondarySystemBackground"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "secondarySystemBackground"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "secondarySystemBackground"]
+- !private ["s26_ExpressibleByColorLiteralP", "secondarySystemBackground"]
+- !private ["s19_HasContiguousBytesP", "secondarySystemBackground"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "secondarySystemBackground"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "secondarySystemBackground"]
+- !private ["s21_ObjectiveCBridgeableP", "blue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "secondarySystemBackground"]
+- !private ["s21_ObjectiveCBridgeableP", "toggle"]
+- !private ["s21_ObjectiveCBridgeableP", "white"]
+- ["s21_ObjectiveCBridgeableP", "zero"]
+depends-nominal:
+- "7SwiftUI10AnimatableP"
+- "SK"
+- !private "7SwiftUI7BindingV"
+- !private "Sb"
+- !private "7SwiftUI6ButtonV"
+- !private "So10CGColorRefa"
+- "So6CGRectV"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- !private "s7CVarArgP"
+- !private "s12CaseIterableP"
+- "20DYPopoverViewExample04CellB0V"
+- "SN"
+- "Sl"
+- !private "7SwiftUI5ColorV"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "s26DefaultStringInterpolationV"
+- "7SwiftUI15DynamicPropertyP"
+- !private "7SwiftUI18DynamicViewContentP"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7SwiftUI7ForEachV"
+- "7SwiftUI7GestureP"
+- !private "7SwiftUI8GridItemV"
+- "20DYPopoverViewExample04GridB0V"
+- !private "7SwiftUI6HStackV"
+- "SH"
+- !private "7SwiftUI19HorizontalAlignmentV"
+- !private "7SwiftUI5ImageV"
+- !private "7SwiftUI15InsettableShapeP"
+- "s7KeyPathC"
+- !private "7SwiftUI9LazyVGridV"
+- "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "7SwiftUI14NavigationViewV"
+- !private "7SwiftUI19NavigationViewStyleP"
+- !private "s9OptionSetP"
+- "Sq"
+- !private "13DYPopoverView11PopoverTypeO"
+- "Sk"
+- "SX"
+- !private "Sm"
+- !private "SY"
+- !private "7SwiftUI16RoundedRectangleV"
+- !private "7SwiftUI10ScrollViewV"
+- "ST"
+- !private "7SwiftUI4EdgeO3SetV"
+- !private "s10SetAlgebraP"
+- !private "7SwiftUI5ShapeP"
+- !private "7SwiftUI10ShapeStyleP"
+- !private "7SwiftUI8GridItemV4SizeO"
+- !private "7SwiftUI6SpacerV"
+- !private "7SwiftUI24StackNavigationViewStyleV"
+- "7SwiftUI5StateV"
+- !private "SS"
+- "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "7SwiftUI4TextV"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So7UIColorC"
+- !private "7SwiftUI6VStackV"
+- "7SwiftUI4ViewP"
+- !private "7SwiftUI11ViewBuilderV"
+- !private "13DYPopoverView0B8PositionO"
+- !private "14CoreFoundation9_CFObjectP"
+- !private "12CoreGraphics22_CGColorInitTrampolineP"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/Dominik/Documents/Programmieren/Libraries/DYPopoverViewExample/Build/Products/Debug-iphonesimulator/DYPopoverView.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "81227c45ad3d004efff5286a3b2912c4"
