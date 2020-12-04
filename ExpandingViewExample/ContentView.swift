@@ -59,10 +59,11 @@ struct ContentView: View {
                 .navigationBarItems(leading: Button("Pop"){self.showThirdPopover.toggle()}.anchorView(viewId: "3") )
                 .navigationTitle(Text("Test"))
         }
-    }.popoverView(content: { Text("Content")
-    }, background: { Color(.secondarySystemBackground).onTapGesture {
-        self.showThirdPopover = false
-    } }, isPresented: self.$showThirdPopover, frame: .constant(CGRect(x:0, y:0, width: 200, height: 200)), popoverType: .popout, position: .bottomRight, viewId: "3")
+        .popoverView(content: { Text("Content")
+        }, background: { Color(.secondarySystemBackground).onTapGesture {
+            self.showThirdPopover = false
+        } }, isPresented: self.$showThirdPopover, frame: .constant(CGRect(x:0, y:0, width: 200, height: 200)), popoverType: .popout, position: .bottomRight, viewId: "3")
+    }
    }
 
     
