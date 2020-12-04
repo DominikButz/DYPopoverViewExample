@@ -64,9 +64,9 @@ struct PopoverPlayground: View {
               }
             .popoverView(content: { Text("Content")}, background: { Color(.secondarySystemBackground).onTapGesture {
                 self.showNavPopover = false
-            } }, isPresented: self.$showNavPopover, frame: .constant(CGRect(x:0, y:0, width: 200, height: 200)), anchorFrame: self.navBarPopoverOriginFrame, popoverType: .popout, position: .bottomLeft, viewId: "3")
-            .popoverView(content: {Text("Some content")}, background: {BlurView(style: .systemChromeMaterial)}, isPresented: self.$showFirstPopover, frame: .constant(CGRect(x: 0, y: 0, width: 150, height: 150)),  anchorFrame: self.firstPopoverOriginFrame, popoverType: .popout, position: self.popoverPosition, viewId: "0", settings: DYPopoverViewSettings(shadowRadius: 20))
-            .popoverView(content: {ContentExample(frame: self.$secondPopoverFrame, show:self.$showSecondPopover)}, background: {Color(.secondarySystemBackground)}, isPresented: self.$showSecondPopover, frame: self.$secondPopoverFrame, anchorFrame: self.secondPopoverOriginFrame, popoverType: .popover, position: self.popoverPosition, viewId: "1", settings: DYPopoverViewSettings(cornerRadius: (30, 30, 30, 30)))
+            } }, isPresented: self.$showNavPopover, frame: .constant(CGRect(x:0, y:0, width: 200, height: 200)), anchorFrame: self.navBarPopoverOriginFrame, popoverType: .popout, position: .bottomLeft)
+            .popoverView(content: {Text("Some content")}, background: {BlurView(style: .systemChromeMaterial)}, isPresented: self.$showFirstPopover, frame: .constant(CGRect(x: 0, y: 0, width: 150, height: 150)),  anchorFrame: self.firstPopoverOriginFrame, popoverType: .popout, position: self.popoverPosition, settings: DYPopoverViewSettings(shadowRadius: 20))
+            .popoverView(content: {ContentExample(frame: self.$secondPopoverFrame, show:self.$showSecondPopover)}, background: {Color(.secondarySystemBackground)}, isPresented: self.$showSecondPopover, frame: self.$secondPopoverFrame, anchorFrame: self.secondPopoverOriginFrame, popoverType: .popover, position: self.popoverPosition, settings: DYPopoverViewSettings(cornerRadius: (30, 30, 30, 30)))
             
         }
     }

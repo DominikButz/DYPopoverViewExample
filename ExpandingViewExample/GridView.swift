@@ -59,7 +59,7 @@ struct CellView: View {
         }.frame(width: availableWidth, height:100).background(RoundedRectangle(cornerRadius: 5).foregroundColor(.blue)).padding(.horizontal, 10)
         .popoverView(content: { Text("Content")}, background: { Color(.secondarySystemBackground).onTapGesture {
             showPopover.toggle()
-        } }, isPresented: self.$showPopover, frame: .constant(CGRect(x:0, y:0, width: 200, height: 200)), anchorFrame: self.popoverOriginFrame, popoverType: .popout, position: .bottom, viewId: "3")
+        } }, isPresented: self.$showPopover, frame: .constant(CGRect(x:0, y:0, width: 200, height: 200)), anchorFrame: self.popoverOriginFrame, popoverType: .popout, position: .bottom)
    
     }
   

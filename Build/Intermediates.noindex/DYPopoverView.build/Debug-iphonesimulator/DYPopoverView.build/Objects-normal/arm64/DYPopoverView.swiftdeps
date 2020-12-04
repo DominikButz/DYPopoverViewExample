@@ -35,8 +35,6 @@ provides-member:
 - ["7SwiftUI4ViewP", "anchorFrame"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "!="
-- !private "&&"
 - !private "*"
 - !private "+"
 - !private "-"
@@ -285,7 +283,6 @@ depends-member:
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "systemGray3"]
 - ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
 - ["s27ExpressibleByIntegerLiteralP", "init"]
-- !private ["s23ExpressibleByNilLiteralP", "init"]
 - !private ["s23ExpressibleByNilLiteralP", "zero"]
 - ["s32ExpressibleByStringInterpolationP", ""]
 - !private ["s32ExpressibleByStringInterpolationP", "systemGray3"]
@@ -462,7 +459,6 @@ depends-member:
 - !private ["13DYPopoverView07PopoverB8ModifierV", "PopoverOffset"]
 - ["13DYPopoverView07PopoverB8ModifierV", "PopoverType"]
 - !private ["13DYPopoverView07PopoverB8ModifierV", "RoundedArrowRectangle"]
-- ["13DYPopoverView07PopoverB8ModifierV", "String"]
 - ["13DYPopoverView07PopoverB8ModifierV", "View"]
 - ["13DYPopoverView07PopoverB8ModifierV", "ViewBuilder"]
 - ["13DYPopoverView07PopoverB8ModifierV", "ViewPosition"]
@@ -486,7 +482,6 @@ depends-member:
 - ["13DYPopoverView07PopoverB8ModifierV", "position"]
 - ["13DYPopoverView07PopoverB8ModifierV", "settings"]
 - ["13DYPopoverView07PopoverB8ModifierV", "show"]
-- ["13DYPopoverView07PopoverB8ModifierV", "viewId"]
 - ["7SwiftUI13PreferenceKeyP", "Value"]
 - ["7SwiftUI13PreferenceKeyP", ""]
 - ["7SwiftUI13PreferenceKeyP", "_includesRemovedValues"]
@@ -833,4 +828,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "4d9f7a5fe675aa40bf3ff2f8aff8f548"
+interface-hash: "5bcaedf5691ab88602dd2831cd593dca"

@@ -36,7 +36,6 @@ depends-top-level:
 - "Text"
 - "TranslucentTextButtonView"
 - "UIScreen"
-- !private "UnicodeScalarType"
 - "VStack"
 - "View"
 - "ViewPosition"
@@ -44,7 +43,6 @@ depends-member:
 - ["7SwiftUI10AnimatableP", ""]
 - ["7SwiftUI10AnimatableP", "init"]
 - ["7SwiftUI10AnimatableP", "width"]
-- ["7SwiftUI10AnimatableP", "zero"]
 - !private ["Sa", "count"]
 - !private ["Sa", "subscript"]
 - !private ["s10ArraySliceV", "rawValue"]
@@ -68,7 +66,6 @@ depends-member:
 - !private ["So10CGColorRefa", "systemBackground"]
 - ["So6CGRectV", "init"]
 - ["So6CGRectV", "width"]
-- ["So6CGRectV", "zero"]
 - !private ["So6CGSizeV", "width"]
 - !private ["8CloudKit21CKRecordValueProtocolP", "count"]
 - !private ["8CloudKit21CKRecordValueProtocolP", "secondarySystemBackground"]
@@ -113,7 +110,6 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "systemBackground"]
 - ["s28CustomDebugStringConvertibleP", "width"]
-- ["s28CustomDebugStringConvertibleP", "zero"]
 - !private ["s17CustomReflectableP", "count"]
 - ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "rawValue"]
@@ -122,7 +118,6 @@ depends-member:
 - !private ["s17CustomReflectableP", "systemBackground"]
 - !private ["s17CustomReflectableP", "toggle"]
 - ["s17CustomReflectableP", "width"]
-- ["s17CustomReflectableP", "zero"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "accentColor"]
 - ["s23CustomStringConvertibleP", "bounds"]
@@ -148,7 +143,6 @@ depends-member:
 - !private ["Se", "systemBackground"]
 - !private ["Se", "toggle"]
 - ["Se", "width"]
-- ["Se", "zero"]
 - !private ["7SwiftUI15DynamicPropertyP", "constant"]
 - ["7SwiftUI15DynamicPropertyP", "init"]
 - ["7SwiftUI15DynamicPropertyP", "wrappedValue"]
@@ -160,7 +154,6 @@ depends-member:
 - !private ["SE", "systemBackground"]
 - !private ["SE", "toggle"]
 - ["SE", "width"]
-- ["SE", "zero"]
 - ["SQ", ""]
 - !private ["SQ", "accentColor"]
 - !private ["SQ", "allCases"]
@@ -183,7 +176,6 @@ depends-member:
 - !private ["SQ", "toggle"]
 - ["SQ", "top"]
 - ["SQ", "width"]
-- ["SQ", "zero"]
 - !private ["s25ExpressibleByArrayLiteralP", ""]
 - !private ["s25ExpressibleByArrayLiteralP", "count"]
 - !private ["s25ExpressibleByArrayLiteralP", "rawValue"]
@@ -199,7 +191,9 @@ depends-member:
 - ["s32ExpressibleByStringInterpolationP", ""]
 - !private ["s32ExpressibleByStringInterpolationP", "secondarySystemBackground"]
 - !private ["s32ExpressibleByStringInterpolationP", "systemBackground"]
+- !private ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
 - ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "secondarySystemBackground"]
 - !private ["s26ExpressibleByStringLiteralP", "systemBackground"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", ""]
@@ -477,7 +471,6 @@ depends-member:
 - !private ["s30_CustomPlaygroundQuickLookableP", "systemBackground"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "toggle"]
 - ["s30_CustomPlaygroundQuickLookableP", "width"]
-- ["s30_CustomPlaygroundQuickLookableP", "zero"]
 - !private ["s24_DestructorSafeContainerP", "count"]
 - !private ["s24_DestructorSafeContainerP", "rawValue"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
@@ -517,7 +510,6 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "systemBackground"]
 - !private ["s21_ObjectiveCBridgeableP", "toggle"]
 - ["s21_ObjectiveCBridgeableP", "width"]
-- ["s21_ObjectiveCBridgeableP", "zero"]
 - ["7SwiftUI16_PreviewProviderP", "Default_Previews"]
 - !private ["7SwiftUI16_PreviewProviderP", "PopoverPlayground"]
 - ["7SwiftUI16_PreviewProviderP", "Previews"]
@@ -654,6 +646,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Users/Dominik/Documents/Programmieren/Libraries/DYPopoverViewExample/Build/Products/Debug-iphonesimulator/DYPopoverView.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/Dominik/Documents/Programmieren/Xcode Projects/Progressive-iOS/Pods/Firebase/CoreOnly/Sources/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
@@ -673,4 +666,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "0a36413f0cbaf5e1060d82a128aa7d98"
+interface-hash: "e7a7121dbc30a21309ada89463950a43"
