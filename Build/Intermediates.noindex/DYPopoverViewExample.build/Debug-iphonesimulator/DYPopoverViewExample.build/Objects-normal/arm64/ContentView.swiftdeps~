@@ -10,6 +10,7 @@ provides-member:
 - ["20DYPopoverViewExample07ContentB9_PreviewsV", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "*"
 - "ContentView"
 - "ContentView_Previews"
 - !private "PopoverPlayground"
@@ -47,10 +48,15 @@ depends-member:
 - ["20DYPopoverViewExample07ContentB9_PreviewsV", "previews"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "colorScheme"]
+- !private ["Se", "init"]
 - !private ["7SwiftUI17EnvironmentValuesV", "colorScheme"]
 - ["SQ", ""]
 - !private ["SQ", "dark"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", "FloatLiteralType"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
 - ["s32ExpressibleByStringInterpolationP", ""]
 - ["s26ExpressibleByStringLiteralP", ""]
 - ["s33ExpressibleByUnicodeScalarLiteralP", ""]
@@ -58,6 +64,7 @@ depends-member:
 - !private ["SH", "dark"]
 - ["s25LosslessStringConvertibleP", ""]
 - ["So8NSCodingP", ""]
+- ["So8NSObjectC", ""]
 - !private ["20DYPopoverViewExample17PopoverPlaygroundV", ""]
 - !private ["20DYPopoverViewExample17PopoverPlaygroundV", "init"]
 - !private ["7SwiftUI15PreviewProviderP", "ContentView"]
@@ -94,6 +101,8 @@ depends-member:
 - !private ["7SwiftUI11ViewBuilderV", "buildOptional"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["7SwiftUI16_PreviewProviderP", "ContentView"]
 - ["7SwiftUI16_PreviewProviderP", "Default_Previews"]
@@ -114,15 +123,19 @@ depends-nominal:
 - "20DYPopoverViewExample07ContentB0V"
 - "20DYPopoverViewExample07ContentB9_PreviewsV"
 - "s23CustomStringConvertibleP"
+- !private "Se"
 - !private "7SwiftUI17EnvironmentValuesV"
 - "SQ"
 - "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
 - "s32ExpressibleByStringInterpolationP"
 - "s26ExpressibleByStringLiteralP"
 - "s33ExpressibleByUnicodeScalarLiteralP"
 - "SH"
 - "s25LosslessStringConvertibleP"
 - "So8NSCodingP"
+- "So8NSObjectC"
 - !private "20DYPopoverViewExample17PopoverPlaygroundV"
 - "7SwiftUI15PreviewProviderP"
 - "ST"
@@ -133,6 +146,8 @@ depends-nominal:
 - !private "7SwiftUI11ViewBuilderV"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - "7SwiftUI16_PreviewProviderP"
 depends-dynamic-lookup:
