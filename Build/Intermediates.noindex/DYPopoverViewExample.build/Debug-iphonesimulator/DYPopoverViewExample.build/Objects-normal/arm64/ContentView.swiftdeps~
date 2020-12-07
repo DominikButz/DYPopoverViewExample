@@ -11,30 +11,143 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "*"
+- "..<"
+- !private "AssignmentPrecedence"
+- "BlurView"
+- "BooleanLiteralType"
+- "Button"
+- "CGRect"
+- "Color"
+- "ContentExample"
 - "ContentView"
 - "ContentView_Previews"
-- !private "PopoverPlayground"
+- "DYPopoverViewSettings"
+- "FloatLiteralType"
+- "ForEach"
+- !private "GeometryReader"
+- "IntegerLiteralType"
+- "NavigationView"
+- "Picker"
 - "PreviewProvider"
+- "Spacer"
+- "State"
+- "String"
+- "StringLiteralType"
+- "Text"
+- "TranslucentTextButtonView"
+- "UIScreen"
+- !private "UnicodeScalarType"
+- "VStack"
 - "View"
+- "ViewPosition"
 depends-member:
 - ["7SwiftUI10AnimatableP", ""]
+- ["7SwiftUI10AnimatableP", "init"]
+- ["7SwiftUI10AnimatableP", "width"]
+- !private ["Sa", "count"]
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "rawValue"]
 - ["SK", ""]
+- !private ["SK", "count"]
+- !private ["SK", "rawValue"]
+- !private ["SK", "secondarySystemBackground"]
+- !private ["SK", "subscript"]
+- !private ["SK", "systemBackground"]
+- !private ["7SwiftUI7BindingV", "constant"]
+- !private ["7SwiftUI7BindingV", "init"]
+- !private ["7SwiftUI7BindingV", "projectedValue"]
+- !private ["7SwiftUI7BindingV", "subscript"]
+- !private ["7SwiftUI7BindingV", "wrappedValue"]
+- !private ["20DYPopoverViewExample04BlurB0V", ""]
+- !private ["20DYPopoverViewExample04BlurB0V", "init"]
+- !private ["Sb", "toggle"]
+- !private ["7SwiftUI6ButtonV", "anchorView"]
+- !private ["7SwiftUI6ButtonV", "init"]
+- !private ["So10CGColorRefa", "secondarySystemBackground"]
+- !private ["So10CGColorRefa", "systemBackground"]
+- ["So6CGRectV", "init"]
+- ["So6CGRectV", "width"]
+- !private ["So6CGSizeV", "width"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "count"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "secondarySystemBackground"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "subscript"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "systemBackground"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "toggle"]
+- ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "count"]
+- ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "secondarySystemBackground"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "systemBackground"]
+- !private ["s7CVarArgP", "toggle"]
+- !private ["s12CaseIterableP", "allCases"]
+- !private ["s12CaseIterableP", "bottomRight"]
 - !private ["s12CaseIterableP", "dark"]
+- !private ["s12CaseIterableP", "rawValue"]
+- ["s12CaseIterableP", "top"]
 - ["Sl", ""]
+- !private ["Sl", "count"]
+- !private ["Sl", "rawValue"]
+- !private ["Sl", "secondarySystemBackground"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "systemBackground"]
+- !private ["7SwiftUI5ColorV", "accentColor"]
+- !private ["7SwiftUI5ColorV", "init"]
+- !private ["7SwiftUI5ColorV", "onTapGesture"]
+- !private ["7SwiftUI5ColorV", "red"]
 - !private ["7SwiftUI11ColorSchemeO", "dark"]
 - ["SL", ""]
+- !private ["SL", "secondarySystemBackground"]
+- !private ["SL", "systemBackground"]
+- !private ["20DYPopoverViewExample07ContentC0V", ""]
+- !private ["20DYPopoverViewExample07ContentC0V", "init"]
+- !private ["20DYPopoverViewExample07ContentB0V", "$popoverPosition"]
+- !private ["20DYPopoverViewExample07ContentB0V", "$secondPopoverFrame"]
+- !private ["20DYPopoverViewExample07ContentB0V", "$showFirstPopover"]
+- !private ["20DYPopoverViewExample07ContentB0V", "$showSecondPopover"]
+- !private ["20DYPopoverViewExample07ContentB0V", "$showThirdPopover"]
+- !private ["20DYPopoverViewExample07ContentB0V", "$viewId"]
+- !private ["20DYPopoverViewExample07ContentB0V", "BlurView"]
 - ["20DYPopoverViewExample07ContentB0V", "Body"]
+- !private ["20DYPopoverViewExample07ContentB0V", "Button"]
+- ["20DYPopoverViewExample07ContentB0V", "CGRect"]
+- !private ["20DYPopoverViewExample07ContentB0V", "Color"]
+- !private ["20DYPopoverViewExample07ContentB0V", "ContentExample"]
+- !private ["20DYPopoverViewExample07ContentB0V", "DYPopoverViewSettings"]
 - ["20DYPopoverViewExample07ContentB0V", "Default_Body"]
-- !private ["20DYPopoverViewExample07ContentB0V", "PopoverPlayground"]
+- !private ["20DYPopoverViewExample07ContentB0V", "ForEach"]
+- !private ["20DYPopoverViewExample07ContentB0V", "GeometryReader"]
+- !private ["20DYPopoverViewExample07ContentB0V", "NavigationView"]
+- !private ["20DYPopoverViewExample07ContentB0V", "Picker"]
+- !private ["20DYPopoverViewExample07ContentB0V", "Spacer"]
+- ["20DYPopoverViewExample07ContentB0V", "State"]
+- ["20DYPopoverViewExample07ContentB0V", "String"]
+- !private ["20DYPopoverViewExample07ContentB0V", "Text"]
+- !private ["20DYPopoverViewExample07ContentB0V", "TranslucentTextButtonView"]
+- ["20DYPopoverViewExample07ContentB0V", "UIScreen"]
+- !private ["20DYPopoverViewExample07ContentB0V", "VStack"]
 - ["20DYPopoverViewExample07ContentB0V", "View"]
+- ["20DYPopoverViewExample07ContentB0V", "ViewPosition"]
 - ["20DYPopoverViewExample07ContentB0V", ""]
 - ["20DYPopoverViewExample07ContentB0V", "_Default_Body"]
 - ["20DYPopoverViewExample07ContentB0V", "_makeView"]
 - ["20DYPopoverViewExample07ContentB0V", "_makeViewList"]
+- !private ["20DYPopoverViewExample07ContentB0V", "_popoverPosition"]
+- !private ["20DYPopoverViewExample07ContentB0V", "_secondPopoverFrame"]
+- !private ["20DYPopoverViewExample07ContentB0V", "_showFirstPopover"]
+- !private ["20DYPopoverViewExample07ContentB0V", "_showSecondPopover"]
+- !private ["20DYPopoverViewExample07ContentB0V", "_showThirdPopover"]
+- !private ["20DYPopoverViewExample07ContentB0V", "_viewId"]
 - ["20DYPopoverViewExample07ContentB0V", "_viewListCount"]
 - ["20DYPopoverViewExample07ContentB0V", "body"]
 - !private ["20DYPopoverViewExample07ContentB0V", "environment"]
 - ["20DYPopoverViewExample07ContentB0V", "init"]
+- !private ["20DYPopoverViewExample07ContentB0V", "popoverPosition"]
+- !private ["20DYPopoverViewExample07ContentB0V", "secondPopoverFrame"]
+- !private ["20DYPopoverViewExample07ContentB0V", "showFirstPopover"]
+- !private ["20DYPopoverViewExample07ContentB0V", "showSecondPopover"]
+- !private ["20DYPopoverViewExample07ContentB0V", "showThirdPopover"]
+- !private ["20DYPopoverViewExample07ContentB0V", "viewId"]
 - !private ["20DYPopoverViewExample07ContentB9_PreviewsV", "ContentView"]
 - ["20DYPopoverViewExample07ContentB9_PreviewsV", "Default_Previews"]
 - ["20DYPopoverViewExample07ContentB9_PreviewsV", "Previews"]
@@ -46,27 +159,171 @@ depends-member:
 - ["20DYPopoverViewExample07ContentB9_PreviewsV", "init"]
 - ["20DYPopoverViewExample07ContentB9_PreviewsV", "platform"]
 - ["20DYPopoverViewExample07ContentB9_PreviewsV", "previews"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "rawValue"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "rawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "secondarySystemBackground"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "systemBackground"]
+- ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "rawValue"]
+- !private ["s17CustomReflectableP", "secondarySystemBackground"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "systemBackground"]
+- !private ["s17CustomReflectableP", "toggle"]
+- ["s17CustomReflectableP", "width"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "accentColor"]
+- ["s23CustomStringConvertibleP", "bounds"]
 - !private ["s23CustomStringConvertibleP", "colorScheme"]
-- !private ["Se", "init"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "onTapGesture"]
+- !private ["s23CustomStringConvertibleP", "rawValue"]
+- !private ["s23CustomStringConvertibleP", "red"]
+- !private ["s23CustomStringConvertibleP", "secondarySystemBackground"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "systemBackground"]
+- !private ["s23CustomStringConvertibleP", "toggle"]
+- !private ["13DYPopoverView0aB8SettingsV", "init"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "rawValue"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "count"]
+- ["Se", "init"]
+- !private ["Se", "secondarySystemBackground"]
+- !private ["Se", "subscript"]
+- !private ["Se", "systemBackground"]
+- !private ["Se", "toggle"]
+- ["Se", "width"]
+- !private ["7SwiftUI15DynamicPropertyP", "constant"]
+- ["7SwiftUI15DynamicPropertyP", "init"]
+- ["7SwiftUI15DynamicPropertyP", "wrappedValue"]
+- !private ["7SwiftUI18DynamicViewContentP", "init"]
+- !private ["SE", "count"]
+- ["SE", "init"]
+- !private ["SE", "secondarySystemBackground"]
+- !private ["SE", "subscript"]
+- !private ["SE", "systemBackground"]
+- !private ["SE", "toggle"]
+- ["SE", "width"]
 - !private ["7SwiftUI17EnvironmentValuesV", "colorScheme"]
 - ["SQ", ""]
+- !private ["SQ", "accentColor"]
+- !private ["SQ", "allCases"]
+- !private ["SQ", "bottomRight"]
+- ["SQ", "bounds"]
+- !private ["SQ", "center"]
+- !private ["SQ", "count"]
 - !private ["SQ", "dark"]
+- ["SQ", "init"]
+- ["SQ", "main"]
+- !private ["SQ", "onTapGesture"]
+- !private ["SQ", "popout"]
+- !private ["SQ", "popover"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "red"]
+- !private ["SQ", "secondarySystemBackground"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "systemBackground"]
+- !private ["SQ", "systemChromeMaterial"]
+- !private ["SQ", "tag"]
+- !private ["SQ", "toggle"]
+- ["SQ", "top"]
+- ["SQ", "width"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "rawValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "toggle"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
-- !private ["s25ExpressibleByFloatLiteralP", "FloatLiteralType"]
-- !private ["s25ExpressibleByFloatLiteralP", "init"]
-- !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
-- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "secondarySystemBackground"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "systemBackground"]
+- ["s25ExpressibleByFloatLiteralP", "FloatLiteralType"]
+- ["s25ExpressibleByFloatLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
 - ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "secondarySystemBackground"]
+- !private ["s32ExpressibleByStringInterpolationP", "systemBackground"]
 - ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "secondarySystemBackground"]
+- !private ["s26ExpressibleByStringLiteralP", "systemBackground"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "secondarySystemBackground"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "systemBackground"]
+- !private ["7SwiftUI7ForEachV", "init"]
+- !private ["7SwiftUI13GeometryProxyV", "size"]
+- !private ["7SwiftUI14GeometryReaderV", "init"]
 - ["SH", ""]
+- !private ["SH", "accentColor"]
+- !private ["SH", "allCases"]
+- !private ["SH", "bottomRight"]
+- ["SH", "bounds"]
+- !private ["SH", "count"]
 - !private ["SH", "dark"]
+- !private ["SH", "init"]
+- ["SH", "main"]
+- !private ["SH", "onTapGesture"]
+- !private ["SH", "popout"]
+- !private ["SH", "popover"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "red"]
+- !private ["SH", "secondarySystemBackground"]
+- !private ["SH", "subscript"]
+- !private ["SH", "systemBackground"]
+- !private ["SH", "systemChromeMaterial"]
+- !private ["SH", "toggle"]
+- ["SH", "top"]
+- !private ["7SwiftUI19HorizontalAlignmentV", "center"]
+- !private ["s20LazySequenceProtocolP", "rawValue"]
 - ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "secondarySystemBackground"]
+- !private ["s25LosslessStringConvertibleP", "systemBackground"]
+- !private ["s25LosslessStringConvertibleP", "toggle"]
+- !private ["s10MirrorPathP", "secondarySystemBackground"]
+- !private ["s10MirrorPathP", "systemBackground"]
+- !private ["SM", ""]
+- !private ["SM", "count"]
+- !private ["SM", "rawValue"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
 - ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "secondarySystemBackground"]
+- !private ["So8NSCodingP", "systemBackground"]
+- !private ["So9NSCopyingP", "secondarySystemBackground"]
+- !private ["So9NSCopyingP", "systemBackground"]
+- !private ["So21NSItemProviderReadingP", "secondarySystemBackground"]
+- !private ["So21NSItemProviderReadingP", "systemBackground"]
+- !private ["So21NSItemProviderWritingP", "secondarySystemBackground"]
+- !private ["So21NSItemProviderWritingP", "systemBackground"]
 - ["So8NSObjectC", ""]
-- !private ["20DYPopoverViewExample17PopoverPlaygroundV", ""]
-- !private ["20DYPopoverViewExample17PopoverPlaygroundV", "init"]
+- ["So8NSObjectC", "bounds"]
+- ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "secondarySystemBackground"]
+- !private ["So8NSObjectC", "systemBackground"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "bounds"]
+- ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "secondarySystemBackground"]
+- !private ["So8NSObjectP", "systemBackground"]
+- !private ["So14NSSecureCodingP", "secondarySystemBackground"]
+- !private ["So14NSSecureCodingP", "systemBackground"]
+- !private ["7SwiftUI14NavigationViewV", "init"]
+- !private ["7SwiftUI14NavigationViewV", "popoverView"]
+- !private ["7SwiftUI6PickerV", "init"]
+- !private ["13DYPopoverView11PopoverTypeO", "popout"]
+- !private ["13DYPopoverView11PopoverTypeO", "popover"]
 - !private ["7SwiftUI15PreviewProviderP", "ContentView"]
 - ["7SwiftUI15PreviewProviderP", "Default_Previews"]
 - ["7SwiftUI15PreviewProviderP", "Previews"]
@@ -76,34 +333,172 @@ depends-member:
 - ["7SwiftUI15PreviewProviderP", "_previews"]
 - ["7SwiftUI15PreviewProviderP", "platform"]
 - ["7SwiftUI15PreviewProviderP", "previews"]
+- !private ["7SwiftUI5ColorV13RGBColorSpaceO", "secondarySystemBackground"]
+- !private ["7SwiftUI5ColorV13RGBColorSpaceO", "systemBackground"]
+- !private ["Sk", ""]
+- !private ["Sk", "count"]
+- !private ["Sk", "rawValue"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", ""]
+- !private ["Sm", "count"]
+- !private ["Sm", "rawValue"]
+- !private ["Sm", "secondarySystemBackground"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "systemBackground"]
+- !private ["SY", "allCases"]
+- !private ["SY", "bottomRight"]
+- !private ["SY", "init"]
+- !private ["SY", "rawValue"]
+- !private ["SY", "systemChromeMaterial"]
+- ["SY", "top"]
 - ["ST", ""]
-- !private ["7SwiftUI5StateV", "init"]
-- !private ["7SwiftUI5StateV", "projectedValue"]
-- !private ["7SwiftUI5StateV", "subscript"]
-- !private ["7SwiftUI5StateV", "wrappedValue"]
+- !private ["ST", "count"]
+- !private ["ST", "rawValue"]
+- !private ["ST", "secondarySystemBackground"]
+- !private ["ST", "subscript"]
+- !private ["ST", "systemBackground"]
+- !private ["7SwiftUI10ShapeStyleP", "accentColor"]
+- !private ["7SwiftUI10ShapeStyleP", "init"]
+- !private ["7SwiftUI10ShapeStyleP", "onTapGesture"]
+- !private ["7SwiftUI10ShapeStyleP", "red"]
+- !private ["s5SliceV", "rawValue"]
+- !private ["7SwiftUI6SpacerV", "init"]
+- ["7SwiftUI5StateV", "init"]
+- ["7SwiftUI5StateV", "projectedValue"]
+- ["7SwiftUI5StateV", "subscript"]
+- ["7SwiftUI5StateV", "wrappedValue"]
+- !private ["SS", "secondarySystemBackground"]
+- !private ["SS", "systemBackground"]
+- !private ["Sy", "secondarySystemBackground"]
+- !private ["Sy", "systemBackground"]
+- !private ["So17UIBlurEffectStyleV", "systemChromeMaterial"]
+- !private ["7SwiftUI4TextV", "init"]
+- !private ["7SwiftUI4TextV", "tag"]
 - ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "secondarySystemBackground"]
+- !private ["s16TextOutputStreamP", "systemBackground"]
 - ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "secondarySystemBackground"]
+- !private ["s20TextOutputStreamableP", "systemBackground"]
+- !private ["20DYPopoverViewExample021TranslucentTextButtonB0V", ""]
+- !private ["20DYPopoverViewExample021TranslucentTextButtonB0V", "init"]
+- !private ["So7UIColorC", "secondarySystemBackground"]
+- !private ["So7UIColorC", "systemBackground"]
+- ["So8UIScreenC", "bounds"]
+- ["So8UIScreenC", "main"]
+- ["So18UITraitEnvironmentP", "bounds"]
+- ["So18UITraitEnvironmentP", "main"]
+- !private ["7SwiftUI19UIViewRepresentableP", "init"]
+- !private ["7SwiftUI6VStackV", "frame"]
+- !private ["7SwiftUI6VStackV", "init"]
+- !private ["7SwiftUI4ViewP", "$popoverPosition"]
+- !private ["7SwiftUI4ViewP", "$secondPopoverFrame"]
+- !private ["7SwiftUI4ViewP", "$showFirstPopover"]
+- !private ["7SwiftUI4ViewP", "$showSecondPopover"]
+- !private ["7SwiftUI4ViewP", "$showThirdPopover"]
+- !private ["7SwiftUI4ViewP", "BlurView"]
 - ["7SwiftUI4ViewP", "Body"]
+- !private ["7SwiftUI4ViewP", "Button"]
+- ["7SwiftUI4ViewP", "CGRect"]
+- !private ["7SwiftUI4ViewP", "Color"]
+- !private ["7SwiftUI4ViewP", "ContentExample"]
+- !private ["7SwiftUI4ViewP", "DYPopoverViewSettings"]
 - ["7SwiftUI4ViewP", "Default_Body"]
-- !private ["7SwiftUI4ViewP", "PopoverPlayground"]
+- !private ["7SwiftUI4ViewP", "ForEach"]
+- !private ["7SwiftUI4ViewP", "GeometryReader"]
+- !private ["7SwiftUI4ViewP", "NavigationView"]
+- !private ["7SwiftUI4ViewP", "Picker"]
+- !private ["7SwiftUI4ViewP", "Spacer"]
+- ["7SwiftUI4ViewP", "State"]
+- !private ["7SwiftUI4ViewP", "Text"]
+- !private ["7SwiftUI4ViewP", "TranslucentTextButtonView"]
+- ["7SwiftUI4ViewP", "UIScreen"]
+- !private ["7SwiftUI4ViewP", "VStack"]
+- !private ["7SwiftUI4ViewP", "ViewPosition"]
 - ["7SwiftUI4ViewP", ""]
 - ["7SwiftUI4ViewP", "_Default_Body"]
 - ["7SwiftUI4ViewP", "_makeView"]
 - ["7SwiftUI4ViewP", "_makeViewList"]
 - ["7SwiftUI4ViewP", "_viewListCount"]
+- !private ["7SwiftUI4ViewP", "accentColor"]
+- !private ["7SwiftUI4ViewP", "anchorView"]
+- !private ["7SwiftUI4ViewP", "background"]
 - ["7SwiftUI4ViewP", "body"]
 - !private ["7SwiftUI4ViewP", "environment"]
+- !private ["7SwiftUI4ViewP", "frame"]
 - !private ["7SwiftUI4ViewP", "init"]
+- !private ["7SwiftUI4ViewP", "navigationBarItems"]
+- !private ["7SwiftUI4ViewP", "navigationTitle"]
+- !private ["7SwiftUI4ViewP", "onTapGesture"]
+- !private ["7SwiftUI4ViewP", "padding"]
+- !private ["7SwiftUI4ViewP", "popoverPosition"]
+- !private ["7SwiftUI4ViewP", "popoverView"]
+- !private ["7SwiftUI4ViewP", "red"]
+- !private ["7SwiftUI4ViewP", "secondPopoverFrame"]
+- !private ["7SwiftUI4ViewP", "showFirstPopover"]
+- !private ["7SwiftUI4ViewP", "showSecondPopover"]
+- !private ["7SwiftUI4ViewP", "showThirdPopover"]
+- !private ["7SwiftUI4ViewP", "tag"]
 - !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
 - !private ["7SwiftUI11ViewBuilderV", "buildExpression"]
 - !private ["7SwiftUI11ViewBuilderV", "buildFinalResult"]
 - !private ["7SwiftUI11ViewBuilderV", "buildIf"]
 - !private ["7SwiftUI11ViewBuilderV", "buildOptional"]
-- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["13DYPopoverView0B8PositionO", "allCases"]
+- !private ["13DYPopoverView0B8PositionO", "bottomRight"]
+- !private ["13DYPopoverView0B8PositionO", "rawValue"]
+- ["13DYPopoverView0B8PositionO", "top"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "rawValue"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["14CoreFoundation9_CFObjectP", "secondarySystemBackground"]
+- !private ["14CoreFoundation9_CFObjectP", "systemBackground"]
+- !private ["12CoreGraphics22_CGColorInitTrampolineP", "secondarySystemBackground"]
+- !private ["12CoreGraphics22_CGColorInitTrampolineP", "systemBackground"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "secondarySystemBackground"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "systemBackground"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "toggle"]
+- ["s30_CustomPlaygroundQuickLookableP", "width"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "rawValue"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "toggle"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
-- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
-- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "secondarySystemBackground"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "systemBackground"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "secondarySystemBackground"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "systemBackground"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "secondarySystemBackground"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "systemBackground"]
+- !private ["s26_ExpressibleByColorLiteralP", "secondarySystemBackground"]
+- !private ["s26_ExpressibleByColorLiteralP", "systemBackground"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "secondarySystemBackground"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "systemBackground"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "secondarySystemBackground"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "systemBackground"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bounds"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "secondarySystemBackground"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "systemBackground"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "secondarySystemBackground"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "systemBackground"]
+- !private ["s21_ObjectiveCBridgeableP", "toggle"]
+- ["s21_ObjectiveCBridgeableP", "width"]
 - !private ["7SwiftUI16_PreviewProviderP", "ContentView"]
 - ["7SwiftUI16_PreviewProviderP", "Default_Previews"]
 - ["7SwiftUI16_PreviewProviderP", "Previews"]
@@ -115,40 +510,108 @@ depends-member:
 - ["7SwiftUI16_PreviewProviderP", "previews"]
 depends-nominal:
 - "7SwiftUI10AnimatableP"
+- !private "Sa"
+- !private "s10ArraySliceV"
 - "SK"
-- !private "s12CaseIterableP"
+- !private "7SwiftUI7BindingV"
+- !private "20DYPopoverViewExample04BlurB0V"
+- !private "Sb"
+- !private "7SwiftUI6ButtonV"
+- !private "So10CGColorRefa"
+- "So6CGRectV"
+- !private "So6CGSizeV"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- "s7CVarArgP"
+- "s12CaseIterableP"
 - "Sl"
+- !private "7SwiftUI5ColorV"
 - !private "7SwiftUI11ColorSchemeO"
 - "SL"
+- !private "20DYPopoverViewExample07ContentC0V"
 - "20DYPopoverViewExample07ContentB0V"
 - "20DYPopoverViewExample07ContentB9_PreviewsV"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
-- !private "Se"
+- !private "13DYPopoverView0aB8SettingsV"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- "7SwiftUI15DynamicPropertyP"
+- !private "7SwiftUI18DynamicViewContentP"
+- "SE"
 - !private "7SwiftUI17EnvironmentValuesV"
 - "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
 - "s43ExpressibleByExtendedGraphemeClusterLiteralP"
-- !private "s25ExpressibleByFloatLiteralP"
-- !private "s27ExpressibleByIntegerLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
 - "s32ExpressibleByStringInterpolationP"
 - "s26ExpressibleByStringLiteralP"
 - "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7SwiftUI7ForEachV"
+- !private "7SwiftUI13GeometryProxyV"
+- !private "7SwiftUI14GeometryReaderV"
 - "SH"
+- !private "7SwiftUI19HorizontalAlignmentV"
+- !private "s20LazySequenceProtocolP"
 - "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
 - "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
 - "So8NSObjectC"
-- !private "20DYPopoverViewExample17PopoverPlaygroundV"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "7SwiftUI14NavigationViewV"
+- !private "7SwiftUI6PickerV"
+- !private "13DYPopoverView11PopoverTypeO"
 - "7SwiftUI15PreviewProviderP"
+- !private "7SwiftUI5ColorV13RGBColorSpaceO"
+- !private "Sk"
+- !private "Sm"
+- "SY"
 - "ST"
-- !private "7SwiftUI5StateV"
+- !private "7SwiftUI10ShapeStyleP"
+- !private "s5SliceV"
+- !private "7SwiftUI6SpacerV"
+- "7SwiftUI5StateV"
+- !private "SS"
+- !private "Sy"
+- !private "So17UIBlurEffectStyleV"
+- !private "7SwiftUI4TextV"
 - "s16TextOutputStreamP"
 - "s20TextOutputStreamableP"
+- !private "20DYPopoverViewExample021TranslucentTextButtonB0V"
+- !private "So7UIColorC"
+- "So8UIScreenC"
+- "So18UITraitEnvironmentP"
+- !private "7SwiftUI19UIViewRepresentableP"
+- !private "7SwiftUI6VStackV"
 - "7SwiftUI4ViewP"
 - !private "7SwiftUI11ViewBuilderV"
-- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "13DYPopoverView0B8PositionO"
+- !private "s14_ArrayProtocolP"
+- !private "14CoreFoundation9_CFObjectP"
+- !private "12CoreGraphics22_CGColorInitTrampolineP"
+- "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
-- !private "s33_ExpressibleByBuiltinFloatLiteralP"
-- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
 - "7SwiftUI16_PreviewProviderP"
 depends-dynamic-lookup:
 depends-external:
@@ -194,4 +657,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "17e26256e993a7babe0fd188cf3fb0fc"
+interface-hash: "0ffb63f5f4dd7dc29b902f623ab770dd"

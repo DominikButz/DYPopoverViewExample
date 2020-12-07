@@ -265,6 +265,7 @@ depends-member:
 - ["SQ", "=="]
 - ["SQ", ""]
 - ["SQ", "_rawHashValue"]
+- !private ["SQ", "all"]
 - !private ["SQ", "animation"]
 - !private ["SQ", "append"]
 - !private ["SQ", "async"]
@@ -298,6 +299,7 @@ depends-member:
 - !private ["SQ", "width"]
 - !private ["SQ", "zero"]
 - !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "all"]
 - !private ["s25ExpressibleByArrayLiteralP", "append"]
 - !private ["s25ExpressibleByArrayLiteralP", "first"]
 - ["s25ExpressibleByArrayLiteralP", "init"]
@@ -414,6 +416,7 @@ depends-member:
 - !private ["So9OS_objectC", "setTarget"]
 - !private ["So9OS_objectC", "suspend"]
 - !private ["So9OS_objectC", "sync"]
+- !private ["s9OptionSetP", "all"]
 - !private ["Sq", "callAsFunction"]
 - ["13DYPopoverView12PopoverFrameV", "$isPresented"]
 - ["13DYPopoverView12PopoverFrameV", "Binding"]
@@ -531,6 +534,8 @@ depends-member:
 - !private ["Sm", "append"]
 - !private ["Sm", "first"]
 - !private ["Sm", "systemGray3"]
+- !private ["SY", ""]
+- !private ["SY", "all"]
 - ["SY", "bottom"]
 - ["SY", "bottomLeft"]
 - ["SY", "bottomRight"]
@@ -554,6 +559,9 @@ depends-member:
 - !private ["ST", "append"]
 - !private ["ST", "first"]
 - !private ["ST", "systemGray3"]
+- !private ["7SwiftUI4EdgeO3SetV", "all"]
+- !private ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "all"]
 - !private ["7SwiftUI5ShapeP", ""]
 - !private ["7SwiftUI5ShapeP", "fill"]
 - !private ["7SwiftUI5ShapeP", "init"]
@@ -606,6 +614,7 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "clear"]
 - !private ["7SwiftUI4ViewP", "clipShape"]
 - !private ["7SwiftUI4ViewP", "coordinateSpace"]
+- !private ["7SwiftUI4ViewP", "edgesIgnoringSafeArea"]
 - !private ["7SwiftUI4ViewP", "fill"]
 - !private ["7SwiftUI4ViewP", "frame"]
 - !private ["7SwiftUI4ViewP", "init"]
@@ -679,6 +688,7 @@ depends-member:
 - ["13DYPopoverView0B8PositionO", "top"]
 - ["13DYPopoverView0B8PositionO", "topLeft"]
 - ["13DYPopoverView0B8PositionO", "topRight"]
+- !private ["7SwiftUI6ZStackV", "edgesIgnoringSafeArea"]
 - !private ["7SwiftUI6ZStackV", "init"]
 - !private ["s14_ArrayProtocolP", "append"]
 - !private ["s14_ArrayProtocolP", "first"]
@@ -787,6 +797,7 @@ depends-nominal:
 - "So8NSObjectP"
 - !private "So14NSSecureCodingP"
 - "So9OS_objectC"
+- !private "s9OptionSetP"
 - !private "Sq"
 - "13DYPopoverView12PopoverFrameV"
 - "13DYPopoverView13PopoverOffsetV"
@@ -801,6 +812,8 @@ depends-nominal:
 - !private "7SwiftUI5SceneP"
 - !private "7Combine9SchedulerP"
 - "ST"
+- !private "7SwiftUI4EdgeO3SetV"
+- !private "s10SetAlgebraP"
 - !private "7SwiftUI5ShapeP"
 - !private "7SwiftUI10ShapeStyleP"
 - !private "7SwiftUI6AnchorV6SourceV"
