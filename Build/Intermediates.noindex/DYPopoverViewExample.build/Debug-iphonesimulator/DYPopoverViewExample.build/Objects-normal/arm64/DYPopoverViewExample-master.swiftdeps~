@@ -1,12 +1,11 @@
 version: "Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)"
 options: "5ed07941ce85b6c18a2d159a0e288158"
-build_time: [1607068064, 747093000]
+build_time: [1607320102, 5114000]
 inputs:
   "/Users/Dominik/Documents/Programmieren/Libraries/DYPopoverViewExample/ExpandingViewExample/Buttons.swift": [1574756777, 0]
   "/Users/Dominik/Documents/Programmieren/Libraries/DYPopoverViewExample/ExpandingViewExample/AppDelegate.swift": [1575097109, 0]
-  "/Users/Dominik/Documents/Programmieren/Libraries/DYPopoverViewExample/ExpandingViewExample/PopoverPlayground.swift": [1607068004, 326870769]
+  "/Users/Dominik/Documents/Programmieren/Libraries/DYPopoverViewExample/ExpandingViewExample/PopoverPlayground.swift": !dirty [1607320018, 67882647]
   "/Users/Dominik/Documents/Programmieren/Libraries/DYPopoverViewExample/ExpandingViewExample/SceneDelegate.swift": [1575097109, 0]
-  "/Users/Dominik/Documents/Programmieren/Libraries/DYPopoverViewExample/ExpandingViewExample/GridView.swift": !dirty [1607067863, 433257972]
-  "/Users/Dominik/Documents/Programmieren/Libraries/DYPopoverViewExample/ExpandingViewExample/ContentView.swift": [1607067863, 433109013]
+  "/Users/Dominik/Documents/Programmieren/Libraries/DYPopoverViewExample/ExpandingViewExample/ContentView.swift": !dirty [1607320037, 340775038]
   "/Users/Dominik/Documents/Programmieren/Libraries/DYPopoverViewExample/ExpandingViewExample/ContentExample.swift": [1606470379, 0]
   "/Users/Dominik/Documents/Programmieren/Libraries/DYPopoverViewExample/ExpandingViewExample/BlurView.swift": [1606118673, 0]

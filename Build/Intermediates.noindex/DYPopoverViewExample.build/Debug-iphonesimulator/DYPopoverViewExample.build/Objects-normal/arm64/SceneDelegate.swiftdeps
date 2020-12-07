@@ -204,10 +204,6 @@ depends-member:
 - ["20DYPopoverViewExample13SceneDelegateC", "windowScene"]
 - ["ST", ""]
 - !private ["s13SignedNumericP", ""]
-- !private ["7SwiftUI5StateV", "init"]
-- !private ["7SwiftUI5StateV", "projectedValue"]
-- !private ["7SwiftUI5StateV", "subscript"]
-- !private ["7SwiftUI5StateV", "wrappedValue"]
 - !private ["Sx", ""]
 - ["s16TextOutputStreamP", ""]
 - ["s20TextOutputStreamableP", ""]
@@ -456,7 +452,6 @@ depends-nominal:
 - "20DYPopoverViewExample13SceneDelegateC"
 - "ST"
 - !private "s13SignedNumericP"
-- !private "7SwiftUI5StateV"
 - !private "Sx"
 - "s16TextOutputStreamP"
 - "s20TextOutputStreamableP"

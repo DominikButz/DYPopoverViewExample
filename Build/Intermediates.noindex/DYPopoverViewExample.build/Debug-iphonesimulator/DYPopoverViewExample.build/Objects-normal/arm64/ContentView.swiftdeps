@@ -11,53 +11,30 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "*"
-- "..."
 - "ContentView"
 - "ContentView_Previews"
-- "FloatLiteralType"
-- !private "GeometryReader"
-- "GridView"
-- "Image"
-- "Int"
-- "IntegerLiteralType"
-- "PopoverPlayground"
+- !private "PopoverPlayground"
 - "PreviewProvider"
-- "State"
-- !private "StringLiteralType"
-- "TabView"
-- "Text"
 - "View"
 depends-member:
 - ["7SwiftUI10AnimatableP", ""]
-- !private ["7SwiftUI10AnimatableP", "width"]
 - ["SK", ""]
-- !private ["So6CGSizeV", "width"]
 - !private ["s12CaseIterableP", "dark"]
 - ["Sl", ""]
 - !private ["7SwiftUI11ColorSchemeO", "dark"]
 - ["SL", ""]
-- !private ["20DYPopoverViewExample07ContentB0V", "$tabSelection"]
 - ["20DYPopoverViewExample07ContentB0V", "Body"]
 - ["20DYPopoverViewExample07ContentB0V", "Default_Body"]
-- !private ["20DYPopoverViewExample07ContentB0V", "GeometryReader"]
-- !private ["20DYPopoverViewExample07ContentB0V", "GridView"]
-- !private ["20DYPopoverViewExample07ContentB0V", "Image"]
-- ["20DYPopoverViewExample07ContentB0V", "Int"]
 - !private ["20DYPopoverViewExample07ContentB0V", "PopoverPlayground"]
-- ["20DYPopoverViewExample07ContentB0V", "State"]
-- !private ["20DYPopoverViewExample07ContentB0V", "TabView"]
-- !private ["20DYPopoverViewExample07ContentB0V", "Text"]
 - ["20DYPopoverViewExample07ContentB0V", "View"]
 - ["20DYPopoverViewExample07ContentB0V", ""]
 - ["20DYPopoverViewExample07ContentB0V", "_Default_Body"]
 - ["20DYPopoverViewExample07ContentB0V", "_makeView"]
 - ["20DYPopoverViewExample07ContentB0V", "_makeViewList"]
-- !private ["20DYPopoverViewExample07ContentB0V", "_tabSelection"]
 - ["20DYPopoverViewExample07ContentB0V", "_viewListCount"]
 - ["20DYPopoverViewExample07ContentB0V", "body"]
 - !private ["20DYPopoverViewExample07ContentB0V", "environment"]
 - ["20DYPopoverViewExample07ContentB0V", "init"]
-- !private ["20DYPopoverViewExample07ContentB0V", "tabSelection"]
 - !private ["20DYPopoverViewExample07ContentB9_PreviewsV", "ContentView"]
 - ["20DYPopoverViewExample07ContentB9_PreviewsV", "Default_Previews"]
 - ["20DYPopoverViewExample07ContentB9_PreviewsV", "Previews"]
@@ -69,47 +46,27 @@ depends-member:
 - ["20DYPopoverViewExample07ContentB9_PreviewsV", "init"]
 - ["20DYPopoverViewExample07ContentB9_PreviewsV", "platform"]
 - ["20DYPopoverViewExample07ContentB9_PreviewsV", "previews"]
-- !private ["s28CustomDebugStringConvertibleP", "width"]
-- !private ["s17CustomReflectableP", "width"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "colorScheme"]
 - !private ["Se", "init"]
-- !private ["Se", "width"]
-- ["7SwiftUI15DynamicPropertyP", "init"]
-- ["7SwiftUI15DynamicPropertyP", "wrappedValue"]
-- !private ["SE", "width"]
 - !private ["7SwiftUI17EnvironmentValuesV", "colorScheme"]
 - ["SQ", ""]
 - !private ["SQ", "dark"]
-- !private ["SQ", "init"]
-- !private ["SQ", "width"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s25ExpressibleByFloatLiteralP", "FloatLiteralType"]
 - !private ["s25ExpressibleByFloatLiteralP", "init"]
 - !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
-- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
 - ["s32ExpressibleByStringInterpolationP", ""]
-- !private ["s32ExpressibleByStringInterpolationP", "init"]
-- !private ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
 - ["s26ExpressibleByStringLiteralP", ""]
-- !private ["s26ExpressibleByStringLiteralP", "init"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", ""]
-- !private ["7SwiftUI13GeometryProxyV", "size"]
-- !private ["7SwiftUI14GeometryReaderV", "init"]
-- !private ["20DYPopoverViewExample04GridB0V", ""]
-- !private ["20DYPopoverViewExample04GridB0V", "init"]
-- !private ["20DYPopoverViewExample04GridB0V", "tabItem"]
 - ["SH", ""]
 - !private ["SH", "dark"]
-- !private ["7SwiftUI5ImageV", "init"]
 - ["s25LosslessStringConvertibleP", ""]
 - ["So8NSCodingP", ""]
 - ["So8NSObjectC", ""]
-- ["So8NSObjectP", ""]
 - !private ["20DYPopoverViewExample17PopoverPlaygroundV", ""]
 - !private ["20DYPopoverViewExample17PopoverPlaygroundV", "init"]
-- !private ["20DYPopoverViewExample17PopoverPlaygroundV", "tabItem"]
 - !private ["7SwiftUI15PreviewProviderP", "ContentView"]
 - ["7SwiftUI15PreviewProviderP", "Default_Previews"]
 - ["7SwiftUI15PreviewProviderP", "Previews"]
@@ -120,25 +77,15 @@ depends-member:
 - ["7SwiftUI15PreviewProviderP", "platform"]
 - ["7SwiftUI15PreviewProviderP", "previews"]
 - ["ST", ""]
-- ["7SwiftUI5StateV", "init"]
-- ["7SwiftUI5StateV", "projectedValue"]
-- ["7SwiftUI5StateV", "subscript"]
-- ["7SwiftUI5StateV", "wrappedValue"]
-- !private ["s27StringInterpolationProtocolP", "init"]
-- !private ["7SwiftUI7TabViewV", "init"]
-- !private ["7SwiftUI4TextV", "init"]
+- !private ["7SwiftUI5StateV", "init"]
+- !private ["7SwiftUI5StateV", "projectedValue"]
+- !private ["7SwiftUI5StateV", "subscript"]
+- !private ["7SwiftUI5StateV", "wrappedValue"]
 - ["s16TextOutputStreamP", ""]
 - ["s20TextOutputStreamableP", ""]
-- !private ["7SwiftUI4ViewP", "$tabSelection"]
 - ["7SwiftUI4ViewP", "Body"]
 - ["7SwiftUI4ViewP", "Default_Body"]
-- !private ["7SwiftUI4ViewP", "GeometryReader"]
-- !private ["7SwiftUI4ViewP", "GridView"]
-- !private ["7SwiftUI4ViewP", "Image"]
 - !private ["7SwiftUI4ViewP", "PopoverPlayground"]
-- ["7SwiftUI4ViewP", "State"]
-- !private ["7SwiftUI4ViewP", "TabView"]
-- !private ["7SwiftUI4ViewP", "Text"]
 - ["7SwiftUI4ViewP", ""]
 - ["7SwiftUI4ViewP", "_Default_Body"]
 - ["7SwiftUI4ViewP", "_makeView"]
@@ -147,22 +94,16 @@ depends-member:
 - ["7SwiftUI4ViewP", "body"]
 - !private ["7SwiftUI4ViewP", "environment"]
 - !private ["7SwiftUI4ViewP", "init"]
-- !private ["7SwiftUI4ViewP", "tabItem"]
-- !private ["7SwiftUI4ViewP", "tabSelection"]
-- !private ["7SwiftUI4ViewP", "tag"]
 - !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
 - !private ["7SwiftUI11ViewBuilderV", "buildExpression"]
 - !private ["7SwiftUI11ViewBuilderV", "buildFinalResult"]
 - !private ["7SwiftUI11ViewBuilderV", "buildIf"]
 - !private ["7SwiftUI11ViewBuilderV", "buildOptional"]
-- !private ["s30_CustomPlaygroundQuickLookableP", "width"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
-- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
-- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
-- !private ["s21_ObjectiveCBridgeableP", "width"]
 - !private ["7SwiftUI16_PreviewProviderP", "ContentView"]
 - ["7SwiftUI16_PreviewProviderP", "Default_Previews"]
 - ["7SwiftUI16_PreviewProviderP", "Previews"]
@@ -175,19 +116,14 @@ depends-member:
 depends-nominal:
 - "7SwiftUI10AnimatableP"
 - "SK"
-- !private "So6CGSizeV"
 - !private "s12CaseIterableP"
 - "Sl"
 - !private "7SwiftUI11ColorSchemeO"
 - "SL"
 - "20DYPopoverViewExample07ContentB0V"
 - "20DYPopoverViewExample07ContentB9_PreviewsV"
-- !private "s28CustomDebugStringConvertibleP"
-- !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
 - !private "Se"
-- "7SwiftUI15DynamicPropertyP"
-- !private "SE"
 - !private "7SwiftUI17EnvironmentValuesV"
 - "SQ"
 - "s43ExpressibleByExtendedGraphemeClusterLiteralP"
@@ -196,34 +132,23 @@ depends-nominal:
 - "s32ExpressibleByStringInterpolationP"
 - "s26ExpressibleByStringLiteralP"
 - "s33ExpressibleByUnicodeScalarLiteralP"
-- !private "7SwiftUI13GeometryProxyV"
-- !private "7SwiftUI14GeometryReaderV"
-- !private "20DYPopoverViewExample04GridB0V"
 - "SH"
-- !private "7SwiftUI5ImageV"
 - "s25LosslessStringConvertibleP"
 - "So8NSCodingP"
 - "So8NSObjectC"
-- "So8NSObjectP"
 - !private "20DYPopoverViewExample17PopoverPlaygroundV"
 - "7SwiftUI15PreviewProviderP"
 - "ST"
-- "7SwiftUI5StateV"
-- !private "s27StringInterpolationProtocolP"
-- !private "7SwiftUI7TabViewV"
-- !private "7SwiftUI4TextV"
+- !private "7SwiftUI5StateV"
 - "s16TextOutputStreamP"
 - "s20TextOutputStreamableP"
 - "7SwiftUI4ViewP"
 - !private "7SwiftUI11ViewBuilderV"
-- !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s33_ExpressibleByBuiltinFloatLiteralP"
-- "s35_ExpressibleByBuiltinIntegerLiteralP"
-- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
-- !private "s21_ObjectiveCBridgeableP"
 - "7SwiftUI16_PreviewProviderP"
 depends-dynamic-lookup:
 depends-external:
@@ -269,4 +194,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "142e71ab8ab3e55535ecbc68f909db24"
+interface-hash: "17e26256e993a7babe0fd188cf3fb0fc"

@@ -35,12 +35,12 @@ provides-member:
 - ["7SwiftUI4ViewP", "anchorFrame"]
 provides-dynamic-lookup:
 depends-top-level:
+- "!="
 - !private "*"
 - !private "+"
 - !private "-"
 - !private "/"
 - "=="
-- !private "??"
 - "Anchor"
 - "AnchorView"
 - "Animation"
@@ -63,7 +63,8 @@ depends-top-level:
 - "FloatLiteralType"
 - "FrameCapture"
 - "GeometryProxy"
-- !private "GeometryReader"
+- "GeometryReader"
+- !private "Group"
 - "IntegerLiteralType"
 - "PopoverFrame"
 - "PopoverOffset"
@@ -78,8 +79,9 @@ depends-top-level:
 - "ViewBuilder"
 - "ViewModifier"
 - "ViewPosition"
-- !private "ZStack"
+- "ZStack"
 - !private "addOffset"
+- "anchorFrame"
 - !private "arrowLength"
 - "coordinateSpace"
 - !private "isPresented"
@@ -87,6 +89,7 @@ depends-top-level:
 - !private "popoverType"
 - !private "position"
 - !private "viewFrame"
+- "viewId"
 depends-member:
 - !private ["7SwiftUI9AlignmentV", "topLeading"]
 - ["13DYPopoverView06AnchorB0V", "Body"]
@@ -115,8 +118,10 @@ depends-member:
 - !private ["7SwiftUI10AnimatableP", "zero"]
 - !private ["7SwiftUI9AnimationV", "spring"]
 - !private ["Sa", "append"]
+- !private ["Sa", "first"]
 - ["SK", ""]
 - !private ["SK", "append"]
+- !private ["SK", "first"]
 - !private ["SK", "systemGray3"]
 - ["7SwiftUI7BindingV", "init"]
 - ["7SwiftUI7BindingV", "projectedValue"]
@@ -132,9 +137,11 @@ depends-member:
 - !private ["So6CGSizeV", "width"]
 - !private ["So6CGSizeV", "zero"]
 - !private ["8CloudKit21CKRecordValueProtocolP", "append"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "first"]
 - !private ["8CloudKit21CKRecordValueProtocolP", "systemGray3"]
 - !private ["s7CVarArgP", "append"]
 - !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "first"]
 - !private ["s7CVarArgP", "main"]
 - !private ["s7CVarArgP", "systemGray3"]
 - ["s12CaseIterableP", "bottom"]
@@ -149,15 +156,20 @@ depends-member:
 - ["s12CaseIterableP", "topRight"]
 - ["Sl", ""]
 - !private ["Sl", "append"]
+- !private ["Sl", "first"]
 - !private ["Sl", "systemGray3"]
 - !private ["7SwiftUI5ColorV", "clear"]
 - !private ["7SwiftUI5ColorV", "init"]
+- !private ["7SwiftUI8CommandsP", "init"]
 - ["SL", ""]
 - !private ["SL", "systemGray3"]
 - !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
 - !private ["7SwiftUI15CoordinateSpaceO", "global"]
 - !private ["s28CustomDebugStringConvertibleP", "append"]
 - !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
 - !private ["s28CustomDebugStringConvertibleP", "height"]
 - !private ["s28CustomDebugStringConvertibleP", "main"]
 - !private ["s28CustomDebugStringConvertibleP", "minX"]
@@ -168,6 +180,8 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "width"]
 - !private ["s28CustomDebugStringConvertibleP", "zero"]
 - !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "first"]
 - !private ["s17CustomReflectableP", "height"]
 - !private ["s17CustomReflectableP", "minX"]
 - !private ["s17CustomReflectableP", "minY"]
@@ -180,10 +194,12 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "append"]
 - !private ["s23CustomStringConvertibleP", "async"]
 - !private ["s23CustomStringConvertibleP", "clear"]
+- !private ["s23CustomStringConvertibleP", "first"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "main"]
 - !private ["s23CustomStringConvertibleP", "spring"]
 - !private ["s23CustomStringConvertibleP", "systemGray3"]
+- !private ["7SwiftUI26CustomizableToolbarContentP", "init"]
 - ["13DYPopoverView0aB16OriginPreferenceV", "Anchor"]
 - ["13DYPopoverView0aB16OriginPreferenceV", "CGRect"]
 - ["13DYPopoverView0aB16OriginPreferenceV", "String"]
@@ -215,7 +231,10 @@ depends-member:
 - ["13DYPopoverView0aB8SettingsV", "shadowRadius"]
 - !private ["10Foundation12DataProtocolP", ""]
 - !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "first"]
 - !private ["Se", "append"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "first"]
 - !private ["Se", "height"]
 - !private ["Se", "minX"]
 - !private ["Se", "minY"]
@@ -234,6 +253,8 @@ depends-member:
 - !private ["7SwiftUI18DynamicViewContentP", "animation"]
 - !private ["7SwiftUI18DynamicViewContentP", "background"]
 - !private ["SE", "append"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "first"]
 - !private ["SE", "height"]
 - !private ["SE", "minX"]
 - !private ["SE", "minY"]
@@ -252,7 +273,9 @@ depends-member:
 - ["SQ", "bottom"]
 - ["SQ", "bottomLeft"]
 - ["SQ", "bottomRight"]
+- !private ["SQ", "callAsFunction"]
 - !private ["SQ", "clear"]
+- !private ["SQ", "first"]
 - !private ["SQ", "global"]
 - ["SQ", "hash"]
 - ["SQ", "hashValue"]
@@ -278,12 +301,14 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", ""]
 - !private ["s25ExpressibleByArrayLiteralP", "all"]
 - !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
 - ["s25ExpressibleByArrayLiteralP", "init"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "systemGray3"]
 - ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
 - ["s27ExpressibleByIntegerLiteralP", "init"]
-- !private ["s23ExpressibleByNilLiteralP", "zero"]
+- !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
 - ["s32ExpressibleByStringInterpolationP", ""]
 - !private ["s32ExpressibleByStringInterpolationP", "systemGray3"]
 - ["s26ExpressibleByStringLiteralP", ""]
@@ -314,8 +339,10 @@ depends-member:
 - ["13DYPopoverView12FrameCaptureV", "rect"]
 - ["13DYPopoverView12FrameCaptureV", "setFrame"]
 - !private ["7SwiftUI13GeometryProxyV", "frame"]
+- !private ["7SwiftUI13GeometryProxyV", "subscript"]
 - !private ["7SwiftUI14GeometryReaderV", "init"]
-- !private ["7SwiftUI7GestureP", "zero"]
+- !private ["7SwiftUI7GestureP", "callAsFunction"]
+- !private ["7SwiftUI5GroupV", "init"]
 - ["SH", "=="]
 - ["SH", ""]
 - ["SH", "_rawHashValue"]
@@ -324,7 +351,9 @@ depends-member:
 - ["SH", "bottom"]
 - ["SH", "bottomLeft"]
 - ["SH", "bottomRight"]
+- !private ["SH", "callAsFunction"]
 - !private ["SH", "clear"]
+- !private ["SH", "first"]
 - !private ["SH", "global"]
 - ["SH", "hash"]
 - ["SH", "hashValue"]
@@ -339,7 +368,6 @@ depends-member:
 - ["SH", "top"]
 - ["SH", "topLeft"]
 - ["SH", "topRight"]
-- !private ["SH", "zero"]
 - !private ["s6HasherV", "combine"]
 - !private ["7SwiftUI15InsettableShapeP", "fill"]
 - !private ["7SwiftUI15InsettableShapeP", "init"]
@@ -350,7 +378,9 @@ depends-member:
 - !private ["7SwiftUI15ModifiedContentV", "background"]
 - !private ["SM", ""]
 - !private ["SM", "append"]
+- !private ["SM", "first"]
 - !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
 - ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "systemGray3"]
 - !private ["So9NSCopyingP", "systemGray3"]
@@ -387,7 +417,7 @@ depends-member:
 - !private ["So9OS_objectC", "suspend"]
 - !private ["So9OS_objectC", "sync"]
 - !private ["s9OptionSetP", "all"]
-- !private ["Sq", "zero"]
+- !private ["Sq", "callAsFunction"]
 - ["13DYPopoverView12PopoverFrameV", "$isPresented"]
 - ["13DYPopoverView12PopoverFrameV", "Binding"]
 - ["13DYPopoverView12PopoverFrameV", "Body"]
@@ -453,12 +483,18 @@ depends-member:
 - ["13DYPopoverView07PopoverB8ModifierV", "Bool"]
 - ["13DYPopoverView07PopoverB8ModifierV", "CGRect"]
 - ["13DYPopoverView07PopoverB8ModifierV", "Content"]
+- ["13DYPopoverView07PopoverB8ModifierV", "DYPopoverViewOriginPreference"]
+- !private ["13DYPopoverView07PopoverB8ModifierV", "DYPopoverViewOriginPreferenceKey"]
 - ["13DYPopoverView07PopoverB8ModifierV", "DYPopoverViewSettings"]
 - ["13DYPopoverView07PopoverB8ModifierV", "Default_Body"]
+- ["13DYPopoverView07PopoverB8ModifierV", "GeometryProxy"]
+- !private ["13DYPopoverView07PopoverB8ModifierV", "GeometryReader"]
+- !private ["13DYPopoverView07PopoverB8ModifierV", "Group"]
 - !private ["13DYPopoverView07PopoverB8ModifierV", "PopoverFrame"]
 - !private ["13DYPopoverView07PopoverB8ModifierV", "PopoverOffset"]
 - ["13DYPopoverView07PopoverB8ModifierV", "PopoverType"]
 - !private ["13DYPopoverView07PopoverB8ModifierV", "RoundedArrowRectangle"]
+- ["13DYPopoverView07PopoverB8ModifierV", "String"]
 - ["13DYPopoverView07PopoverB8ModifierV", "View"]
 - ["13DYPopoverView07PopoverB8ModifierV", "ViewBuilder"]
 - ["13DYPopoverView07PopoverB8ModifierV", "ViewPosition"]
@@ -482,6 +518,7 @@ depends-member:
 - ["13DYPopoverView07PopoverB8ModifierV", "position"]
 - ["13DYPopoverView07PopoverB8ModifierV", "settings"]
 - ["13DYPopoverView07PopoverB8ModifierV", "show"]
+- ["13DYPopoverView07PopoverB8ModifierV", "viewId"]
 - ["7SwiftUI13PreferenceKeyP", "Value"]
 - ["7SwiftUI13PreferenceKeyP", ""]
 - ["7SwiftUI13PreferenceKeyP", "_includesRemovedValues"]
@@ -492,8 +529,10 @@ depends-member:
 - ["7SwiftUI13PreferenceKeyP", "reduce"]
 - !private ["Sk", ""]
 - !private ["Sk", "append"]
+- !private ["Sk", "first"]
 - !private ["Sm", ""]
 - !private ["Sm", "append"]
+- !private ["Sm", "first"]
 - !private ["Sm", "systemGray3"]
 - !private ["SY", ""]
 - !private ["SY", "all"]
@@ -513,10 +552,12 @@ depends-member:
 - !private ["13DYPopoverView21RoundedArrowRectangleV", "init"]
 - !private ["7SwiftUI5SceneP", "animation"]
 - !private ["7SwiftUI5SceneP", "background"]
+- !private ["7SwiftUI5SceneP", "init"]
 - !private ["7Combine9SchedulerP", "async"]
 - !private ["7Combine9SchedulerP", "main"]
 - ["ST", ""]
 - !private ["ST", "append"]
+- !private ["ST", "first"]
 - !private ["ST", "systemGray3"]
 - !private ["7SwiftUI4EdgeO3SetV", "all"]
 - !private ["s10SetAlgebraP", ""]
@@ -536,6 +577,8 @@ depends-member:
 - !private ["s16TextOutputStreamP", "systemGray3"]
 - ["s20TextOutputStreamableP", ""]
 - !private ["s20TextOutputStreamableP", "systemGray3"]
+- !private ["7SwiftUI14ToolbarContentP", ""]
+- !private ["7SwiftUI14ToolbarContentP", "init"]
 - !private ["So7UIColorC", "systemGray3"]
 - ["So18UIFocusEnvironmentP", ""]
 - !private ["7SwiftUI4ViewP", "AnchorView"]
@@ -567,6 +610,7 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "animation"]
 - !private ["7SwiftUI4ViewP", "background"]
 - ["7SwiftUI4ViewP", "body"]
+- !private ["7SwiftUI4ViewP", "callAsFunction"]
 - !private ["7SwiftUI4ViewP", "clear"]
 - !private ["7SwiftUI4ViewP", "clipShape"]
 - !private ["7SwiftUI4ViewP", "coordinateSpace"]
@@ -577,12 +621,13 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "modifier"]
 - !private ["7SwiftUI4ViewP", "offset"]
 - !private ["7SwiftUI4ViewP", "opacity"]
+- !private ["7SwiftUI4ViewP", "overlayPreferenceValue"]
 - ["7SwiftUI4ViewP", "popoverView"]
 - !private ["7SwiftUI4ViewP", "rect"]
 - !private ["7SwiftUI4ViewP", "setFrame"]
 - !private ["7SwiftUI4ViewP", "shadow"]
-- !private ["7SwiftUI4ViewP", "zero"]
 - !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
+- !private ["7SwiftUI11ViewBuilderV", "buildEither"]
 - !private ["7SwiftUI11ViewBuilderV", "buildExpression"]
 - !private ["7SwiftUI11ViewBuilderV", "buildFinalResult"]
 - !private ["7SwiftUI11ViewBuilderV", "buildIf"]
@@ -591,11 +636,14 @@ depends-member:
 - !private ["7SwiftUI12ViewModifierP", "$show"]
 - ["7SwiftUI12ViewModifierP", "Binding"]
 - ["7SwiftUI12ViewModifierP", "Body"]
+- !private ["7SwiftUI12ViewModifierP", "CGRect"]
 - ["7SwiftUI12ViewModifierP", "Content"]
 - !private ["7SwiftUI12ViewModifierP", "DYPopoverViewOriginPreference"]
 - !private ["7SwiftUI12ViewModifierP", "DYPopoverViewOriginPreferenceKey"]
 - !private ["7SwiftUI12ViewModifierP", "DYPopoverViewSettings"]
 - ["7SwiftUI12ViewModifierP", "Default_Body"]
+- !private ["7SwiftUI12ViewModifierP", "GeometryReader"]
+- !private ["7SwiftUI12ViewModifierP", "Group"]
 - !private ["7SwiftUI12ViewModifierP", "PopoverFrame"]
 - !private ["7SwiftUI12ViewModifierP", "PopoverOffset"]
 - !private ["7SwiftUI12ViewModifierP", "RoundedArrowRectangle"]
@@ -643,6 +691,7 @@ depends-member:
 - !private ["7SwiftUI6ZStackV", "edgesIgnoringSafeArea"]
 - !private ["7SwiftUI6ZStackV", "init"]
 - !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "first"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "height"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "minX"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "minY"]
@@ -651,6 +700,7 @@ depends-member:
 - !private ["s30_CustomPlaygroundQuickLookableP", "width"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "zero"]
 - !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "first"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "systemGray3"]
 - ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
@@ -659,8 +709,10 @@ depends-member:
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "systemGray3"]
 - !private ["s26_ExpressibleByColorLiteralP", "systemGray3"]
 - !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "first"]
 - !private ["s19_HasContiguousBytesP", "systemGray3"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "systemGray3"]
@@ -668,6 +720,8 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "systemGray3"]
 - !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
 - !private ["s21_ObjectiveCBridgeableP", "height"]
 - !private ["s21_ObjectiveCBridgeableP", "minX"]
 - !private ["s21_ObjectiveCBridgeableP", "minY"]
@@ -680,6 +734,7 @@ depends-member:
 - !private ["7SwiftUI21_ViewModifier_ContentV", "anchorPreference"]
 - !private ["7SwiftUI21_ViewModifier_ContentV", "frame"]
 - !private ["7SwiftUI21_ViewModifier_ContentV", "offset"]
+- !private ["7SwiftUI21_ViewModifier_ContentV", "overlayPreferenceValue"]
 depends-nominal:
 - !private "7SwiftUI9AlignmentV"
 - "13DYPopoverView06AnchorB0V"
@@ -695,12 +750,14 @@ depends-nominal:
 - "s12CaseIterableP"
 - "Sl"
 - !private "7SwiftUI5ColorV"
+- !private "7SwiftUI8CommandsP"
 - "SL"
 - !private "10Foundation15ContiguousBytesP"
 - !private "7SwiftUI15CoordinateSpaceO"
 - !private "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
+- !private "7SwiftUI26CustomizableToolbarContentP"
 - "13DYPopoverView0aB16OriginPreferenceV"
 - "13DYPopoverView0aB19OriginPreferenceKeyV"
 - "13DYPopoverView0aB8SettingsV"
@@ -723,6 +780,7 @@ depends-nominal:
 - !private "7SwiftUI13GeometryProxyV"
 - !private "7SwiftUI14GeometryReaderV"
 - !private "7SwiftUI7GestureP"
+- !private "7SwiftUI5GroupV"
 - "SH"
 - !private "s6HasherV"
 - !private "7SwiftUI15InsettableShapeP"
@@ -764,6 +822,7 @@ depends-nominal:
 - !private "Sy"
 - "s16TextOutputStreamP"
 - "s20TextOutputStreamableP"
+- !private "7SwiftUI14ToolbarContentP"
 - !private "So7UIColorC"
 - "So18UIFocusEnvironmentP"
 - "7SwiftUI4ViewP"
@@ -828,4 +887,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "5bcaedf5691ab88602dd2831cd593dca"
+interface-hash: "ea42a6a64c8d7e1395efca44ecdd84b4"

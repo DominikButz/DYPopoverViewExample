@@ -10,29 +10,16 @@ import SwiftUI
 import DYPopoverView
 
 struct ContentView: View {
-    
-    @State private var tabSelection: Int = 0
 
     var body: some View {
-        GeometryReader { proxy in
-               TabView(selection: self.$tabSelection) {
-            
-                PopoverPlayground().tabItem({
-                    Image(systemName: "chevron.up.square.fill")
-                    Text("Playground")
-                }).tag(0)
+
+            PopoverPlayground()
                 
-                    GridView(availableWidth: proxy.size.width * 0.9)
-                        .tabItem({
-                            Image(systemName: "chevron.up.square.fill")
-                            Text("Grid")
-                        })
-                    .tag(1)
-                }
-        }
+             
+    }
 
     
-   }
+}
     
     
 //    func customPopoverSettings0()->DYPopoverViewSettings {
@@ -51,7 +38,7 @@ struct ContentView: View {
 //      // settings.arrowLength = 50
 //        return settings
 //    }
-}
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

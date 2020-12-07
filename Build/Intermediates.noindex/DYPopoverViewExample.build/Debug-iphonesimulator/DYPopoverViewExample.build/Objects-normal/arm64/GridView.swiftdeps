@@ -251,12 +251,16 @@ depends-member:
 - !private ["Sq", "white"]
 - ["Sq", "zero"]
 - !private ["13DYPopoverView11PopoverTypeO", "popout"]
+- !private ["7SwiftUI5ColorV13RGBColorSpaceO", "secondarySystemBackground"]
 - ["Sk", "map"]
 - ["SX", "map"]
 - !private ["Sm", "secondarySystemBackground"]
+- !private ["SY", "RawValue"]
 - !private ["SY", ""]
 - !private ["SY", "bottom"]
 - !private ["SY", "horizontal"]
+- !private ["SY", "init"]
+- !private ["SY", "rawValue"]
 - !private ["7SwiftUI16RoundedRectangleV", "foregroundColor"]
 - !private ["7SwiftUI16RoundedRectangleV", "init"]
 - !private ["7SwiftUI10ScrollViewV", "init"]
@@ -429,6 +433,7 @@ depends-nominal:
 - !private "s9OptionSetP"
 - "Sq"
 - !private "13DYPopoverView11PopoverTypeO"
+- !private "7SwiftUI5ColorV13RGBColorSpaceO"
 - "Sk"
 - "SX"
 - !private "Sm"

@@ -15,12 +15,9 @@ struct PopoverPlayground: View {
     @State private var showFirstPopover  = false
     @State private var showNavPopover = false
     
-    @State private var navBarPopoverOriginFrame: CGRect?
-    @State private var firstPopoverOriginFrame:CGRect?
+    @State private var navBarPopoverOriginFrame: CGRect = .zero
     @State private var secondPopoverFrame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width * 0.75, height:150 )
-    @State private var secondPopoverOriginFrame:CGRect?
 
-    @State private var viewId: String = ""
     @State private  var popoverPosition: ViewPosition = .top
     
     var body: some View {
@@ -37,16 +34,14 @@ struct PopoverPlayground: View {
                            
                        }) {
                            TranslucentTextButtonView(title: "Popout", foregroundColor: .red, backgroundColor: .red, frameWidth: 100)
-                    }.anchorFrame(rect: self.$firstPopoverOriginFrame).padding()
+                    }.anchorView(viewId: "firstPopover").padding()
                            
                         Button(action: {
                            // self.viewId = "1"
                             self.showSecondPopover.toggle()
                           }) {
-                            TranslucentTextButtonView(title: "Popover", foregroundColor: .accentColor, backgroundColor: .accentColor, frameWidth: 100).anchorFrame(rect: self.$secondPopoverOriginFrame)
-                              
+                            TranslucentTextButtonView(title: "Popover", foregroundColor: .accentColor, backgroundColor: .accentColor, frameWidth: 100).anchorView(viewId: "secondPopover")
                         }
-
 
                         Spacer()
                     
@@ -64,9 +59,9 @@ struct PopoverPlayground: View {
               }
             .popoverView(content: { Text("Content")}, background: { Color(.secondarySystemBackground).onTapGesture {
                 self.showNavPopover = false
-            } }, isPresented: self.$showNavPopover, frame: .constant(CGRect(x:0, y:0, width: 200, height: 200)), anchorFrame: self.navBarPopoverOriginFrame, popoverType: .popout, position: .bottomLeft)
-            .popoverView(content: {Text("Some content")}, background: {BlurView(style: .systemChromeMaterial)}, isPresented: self.$showFirstPopover, frame: .constant(CGRect(x: 0, y: 0, width: 150, height: 150)),  anchorFrame: self.firstPopoverOriginFrame, popoverType: .popout, position: self.popoverPosition, settings: DYPopoverViewSettings(shadowRadius: 20))
-            .popoverView(content: {ContentExample(frame: self.$secondPopoverFrame, show:self.$showSecondPopover)}, background: {Color(.secondarySystemBackground)}, isPresented: self.$showSecondPopover, frame: self.$secondPopoverFrame, anchorFrame: self.secondPopoverOriginFrame, popoverType: .popover, position: self.popoverPosition, settings: DYPopoverViewSettings(cornerRadius: (30, 30, 30, 30)))
+            } }, isPresented: self.$showNavPopover, frame: .constant(CGRect(x:0, y:0, width: 200, height: 200)), anchorFrame: self.navBarPopoverOriginFrame, popoverType: .popout, position: .bottomLeft, viewId: "")
+            .popoverView(content: {Text("Some content")}, background: {BlurView(style: .systemChromeMaterial)}, isPresented: self.$showFirstPopover, frame: .constant(CGRect(x: 0, y: 0, width: 150, height: 150)),  anchorFrame: nil, popoverType: .popout, position: self.popoverPosition, viewId: "firstPopover", settings: DYPopoverViewSettings(shadowRadius: 20))
+            .popoverView(content: {ContentExample(frame: self.$secondPopoverFrame, show:self.$showSecondPopover)}, background: {Color(.secondarySystemBackground)}, isPresented: self.$showSecondPopover, frame: self.$secondPopoverFrame, anchorFrame: nil, popoverType: .popover, position: self.popoverPosition, viewId: "secondPopover", settings: DYPopoverViewSettings(cornerRadius: (30, 30, 30, 30)))
             
         }
     }
