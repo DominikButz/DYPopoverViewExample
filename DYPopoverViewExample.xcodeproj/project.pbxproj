@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B45A3E65257E1F9B00041EDA /* PopoverPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45A3E64257E1F9B00041EDA /* PopoverPlayground.swift */; };
 		B4AA02B22571010C0069D9F4 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AA02B12571010C0069D9F4 /* BlurView.swift */; };
 		B4FD9AB723924A9500DF9F37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FD9AB623924A9500DF9F37 /* AppDelegate.swift */; };
 		B4FD9AB923924A9500DF9F37 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FD9AB823924A9500DF9F37 /* SceneDelegate.swift */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B45A3E64257E1F9B00041EDA /* PopoverPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverPlayground.swift; sourceTree = "<group>"; };
+		B45A3E67257E200200041EDA /* DYPopoverView */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DYPopoverView; path = ../../DYPopoverView; sourceTree = "<group>"; };
 		B4AA02B12571010C0069D9F4 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		B4FD9AB323924A9500DF9F37 /* DYPopoverViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYPopoverViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4FD9AB623924A9500DF9F37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -31,7 +34,6 @@
 		B4FD9AC423924A9600DF9F37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4FD9ACC2392525500DF9F37 /* Buttons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		B4FD9ACE239255A500DF9F37 /* ContentExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentExample.swift; sourceTree = "<group>"; };
-		B4FD9AD22393AAC700DF9F37 /* DYPopoverView */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DYPopoverView; path = ../DYPopoverView; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +51,7 @@
 		B4FD9AAA23924A9500DF9F37 = {
 			isa = PBXGroup;
 			children = (
-				B4FD9AD22393AAC700DF9F37 /* DYPopoverView */,
+				B45A3E67257E200200041EDA /* DYPopoverView */,
 				B4FD9AB523924A9500DF9F37 /* ExpandingViewExample */,
 				B4FD9AB423924A9500DF9F37 /* Products */,
 				B4FD9AD32393AB1500DF9F37 /* Frameworks */,
@@ -71,6 +73,7 @@
 				B4FD9AB823924A9500DF9F37 /* SceneDelegate.swift */,
 				B4FD9ABA23924A9500DF9F37 /* ContentView.swift */,
 				B4FD9ACE239255A500DF9F37 /* ContentExample.swift */,
+				B45A3E64257E1F9B00041EDA /* PopoverPlayground.swift */,
 				B4AA02B12571010C0069D9F4 /* BlurView.swift */,
 				B4FD9ACC2392525500DF9F37 /* Buttons.swift */,
 				B4FD9ABC23924A9600DF9F37 /* Assets.xcassets */,
@@ -172,6 +175,7 @@
 			files = (
 				B4FD9ACD2392525500DF9F37 /* Buttons.swift in Sources */,
 				B4FD9AB723924A9500DF9F37 /* AppDelegate.swift in Sources */,
+				B45A3E65257E1F9B00041EDA /* PopoverPlayground.swift in Sources */,
 				B4FD9AB923924A9500DF9F37 /* SceneDelegate.swift in Sources */,
 				B4FD9ABB23924A9500DF9F37 /* ContentView.swift in Sources */,
 				B4FD9ACF239255A500DF9F37 /* ContentExample.swift in Sources */,

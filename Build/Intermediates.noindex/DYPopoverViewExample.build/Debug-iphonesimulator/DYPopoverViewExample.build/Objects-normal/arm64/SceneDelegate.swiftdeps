@@ -14,7 +14,6 @@ provides-dynamic-lookup:
 - "sceneWillResignActive"
 - "window"
 depends-top-level:
-- "*"
 - "AssignmentPrecedence"
 - "CastingPrecedence"
 - !private "ContentView"
@@ -91,7 +90,6 @@ depends-member:
 - ["s23CustomStringConvertibleP", "stateRestorationActivityForScene"]
 - ["s23CustomStringConvertibleP", "window"]
 - ["s23CustomStringConvertibleP", "windowScene"]
-- !private ["Se", "init"]
 - ["SQ", "ConnectionOptions"]
 - !private ["SQ", "ContentView"]
 - !private ["SQ", "UIHostingController"]
@@ -111,12 +109,8 @@ depends-member:
 - ["SQ", "window"]
 - ["SQ", "windowScene"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
-- !private ["s25ExpressibleByFloatLiteralP", "FloatLiteralType"]
 - !private ["s25ExpressibleByFloatLiteralP", ""]
-- !private ["s25ExpressibleByFloatLiteralP", "init"]
-- !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
 - !private ["s27ExpressibleByIntegerLiteralP", ""]
-- !private ["s27ExpressibleByIntegerLiteralP", "init"]
 - ["s32ExpressibleByStringInterpolationP", ""]
 - ["s26ExpressibleByStringLiteralP", ""]
 - ["s33ExpressibleByUnicodeScalarLiteralP", ""]
@@ -210,10 +204,6 @@ depends-member:
 - ["20DYPopoverViewExample13SceneDelegateC", "windowScene"]
 - ["ST", ""]
 - !private ["s13SignedNumericP", ""]
-- !private ["7SwiftUI5StateV", "init"]
-- !private ["7SwiftUI5StateV", "projectedValue"]
-- !private ["7SwiftUI5StateV", "subscript"]
-- !private ["7SwiftUI5StateV", "wrappedValue"]
 - !private ["Sx", ""]
 - ["s16TextOutputStreamP", ""]
 - ["s20TextOutputStreamableP", ""]
@@ -391,11 +381,8 @@ depends-member:
 - ["So21UIWindowSceneDelegateP", "window"]
 - ["So21UIWindowSceneDelegateP", "windowScene"]
 - !private ["7SwiftUI4ViewP", "init"]
-- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
-- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
-- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - ["10Foundation27_KeyValueCodingAndObservingP", "ConnectionOptions"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "ContentView"]
@@ -447,7 +434,6 @@ depends-nominal:
 - !private "20DYPopoverViewExample07ContentB0V"
 - "s28CustomDebugStringConvertibleP"
 - "s23CustomStringConvertibleP"
-- !private "Se"
 - "SQ"
 - "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s25ExpressibleByFloatLiteralP"
@@ -466,7 +452,6 @@ depends-nominal:
 - "20DYPopoverViewExample13SceneDelegateC"
 - "ST"
 - !private "s13SignedNumericP"
-- !private "7SwiftUI5StateV"
 - !private "Sx"
 - "s16TextOutputStreamP"
 - "s20TextOutputStreamableP"
@@ -494,11 +479,8 @@ depends-nominal:
 - !private "So8UIWindowC"
 - "So21UIWindowSceneDelegateP"
 - !private "7SwiftUI4ViewP"
-- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
-- !private "s33_ExpressibleByBuiltinFloatLiteralP"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"
-- !private "s34_ExpressibleByBuiltinStringLiteralP"
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
@@ -526,8 +508,9 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
-- "/Users/Dominik/Documents/Programmieren/Libraries/DYPopoverViewExample/Build/Products/Debug-iphonesimulator/DYPopoverView.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/Dominik/Documents/Programmieren/Libraries/Test/DYPopoverViewExample/Build/Products/Debug-iphonesimulator/DYPopoverView.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/Dominik/Documents/Programmieren/Xcode Projects/Progressive-iOS/Pods/Firebase/CoreOnly/Sources/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
